@@ -1,0 +1,23 @@
+===== Fri Sep 25 19:38:27 -03 2026 - Derrubando distconc-guilherme-marcela-consumer-1 com docker kill
+distconc-guilherme-marcela-consumer-1
+Aguardando 60 s para observar o rebalanço...
+
+===== Eventos de rebalanço desde a falha
+consumer-3  | 2026-09-25T22:39:10.755593861Z [REBALANÇO] consumer-33366a8570f2 perdeu as partições [4, 5]
+consumer-3  | 2026-09-25T22:39:10.776319383Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições [3, 4, 5]
+consumer-2  | 2026-09-25T22:39:10.766083966Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [2, 3]
+consumer-2  | 2026-09-25T22:39:10.776293262Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [0, 1, 2]
+
+===== Fri Sep 25 19:39:28 -03 2026 - Religando distconc-guilherme-marcela-consumer-1
+distconc-guilherme-marcela-consumer-1
+
+===== Eventos de rebalanço após a volta
+consumer-2  | 2026-09-25T22:39:10.766083966Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [2, 3]
+consumer-2  | 2026-09-25T22:39:10.776293262Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [0, 1, 2]
+consumer-2  | 2026-09-25T22:39:28.787502508Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [0, 1, 2]
+consumer-2  | 2026-09-25T22:39:28.801271950Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [0, 1]
+consumer-3  | 2026-09-25T22:39:10.755593861Z [REBALANÇO] consumer-33366a8570f2 perdeu as partições [4, 5]
+consumer-3  | 2026-09-25T22:39:10.776319383Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições [3, 4, 5]
+consumer-3  | 2026-09-25T22:39:28.790746149Z [REBALANÇO] consumer-33366a8570f2 perdeu as partições [3, 4, 5]
+consumer-3  | 2026-09-25T22:39:28.801239253Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições [2, 3]
+consumer-1  | 2026-09-25T22:39:28.801181522Z [REBALANÇO] consumer-f713e6b08a14 recebeu as partições [4, 5]

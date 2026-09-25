@@ -1,0 +1,825 @@
+consumer-3  | 2026-09-25T22:29:54.820658647Z consumer-33366a8570f2 iniciado
+consumer-3  | 2026-09-25T22:29:54.822925865Z %3|1790375394.822|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 2ms in state CONNECT)
+consumer-3  | 2026-09-25T22:29:55.821745929Z %3|1790375395.821|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT)
+consumer-3  | 2026-09-25T22:29:56.822090232Z %3|1790375396.821|FAIL|rdkafka#consumer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 1ms in state CONNECT)
+consumer-3  | 2026-09-25T22:29:57.822214597Z %3|1790375397.821|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-3  | 2026-09-25T22:29:58.822798245Z %3|1790375398.822|FAIL|rdkafka#consumer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-3  | 2026-09-25T22:29:59.821701467Z %3|1790375399.821|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-3  | 2026-09-25T22:30:10.352610861Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições [4, 5]
+consumer-3  | 2026-09-25T22:30:13.825972594Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 4
+consumer-3  | 2026-09-25T22:30:13.826017968Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 23.52
+consumer-3  | 2026-09-25T22:30:13.977388205Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 3
+consumer-3  | 2026-09-25T22:30:13.977444977Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 63.99
+consumer-3  | 2026-09-25T22:30:19.979532798Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 5
+consumer-3  | 2026-09-25T22:30:19.979687938Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 39.43
+consumer-3  | 2026-09-25T22:30:20.634988585Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 6
+consumer-3  | 2026-09-25T22:30:20.635054653Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 80.92
+consumer-3  | 2026-09-25T22:30:20.635063306Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (80.92 > 80.0)
+consumer-3  | 2026-09-25T22:30:23.971560408Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 7
+consumer-3  | 2026-09-25T22:30:23.971611630Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 99.74
+consumer-3  | 2026-09-25T22:30:23.971614636Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (99.74 > 80.0)
+consumer-3  | 2026-09-25T22:30:24.637506903Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 8
+consumer-3  | 2026-09-25T22:30:24.637566760Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 20.74
+consumer-3  | 2026-09-25T22:30:25.826103260Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 4
+consumer-3  | 2026-09-25T22:30:25.826174921Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 28.57
+consumer-3  | 2026-09-25T22:30:25.975753840Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 9
+consumer-3  | 2026-09-25T22:30:25.975784255Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 33.47
+consumer-3  | 2026-09-25T22:30:30.638356446Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 5
+consumer-3  | 2026-09-25T22:30:30.638389918Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 54.13
+consumer-3  | 2026-09-25T22:30:32.638758832Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 6
+consumer-3  | 2026-09-25T22:30:32.638864514Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 84.57
+consumer-3  | 2026-09-25T22:30:32.638870413Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (84.57 > 80.0)
+consumer-3  | 2026-09-25T22:30:40.644584207Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 7
+consumer-3  | 2026-09-25T22:30:40.644640981Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 54.23
+consumer-3  | 2026-09-25T22:30:43.981264622Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 10
+consumer-3  | 2026-09-25T22:30:43.981331134Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 27.54
+consumer-3  | 2026-09-25T22:30:45.825705745Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 8
+consumer-3  | 2026-09-25T22:30:45.825745791Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 40.15
+consumer-3  | 2026-09-25T22:30:45.978474307Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 11
+consumer-3  | 2026-09-25T22:30:45.978510629Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 90.97
+consumer-3  | 2026-09-25T22:30:45.978514723Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (90.97 > 80.0)
+consumer-3  | 2026-09-25T22:30:47.821928234Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 12
+consumer-3  | 2026-09-25T22:30:47.821971816Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 49.06
+consumer-3  | 2026-09-25T22:30:49.823350970Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 9
+consumer-3  | 2026-09-25T22:30:49.823397297Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 67.17
+consumer-3  | 2026-09-25T22:30:50.636788176Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 13
+consumer-3  | 2026-09-25T22:30:50.636837813Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 41.13
+consumer-3  | 2026-09-25T22:30:51.970815682Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 14
+consumer-3  | 2026-09-25T22:30:51.970838993Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 27.49
+consumer-3  | 2026-09-25T22:30:53.819037044Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 10
+consumer-3  | 2026-09-25T22:30:53.819055666Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 75.46
+consumer-3  | 2026-09-25T22:30:53.975817418Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 15
+consumer-3  | 2026-09-25T22:30:53.975870403Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 48.6
+consumer-3  | 2026-09-25T22:30:54.634406969Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 16
+consumer-3  | 2026-09-25T22:30:54.634435882Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 61.91
+consumer-3  | 2026-09-25T22:30:57.977416720Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 11
+consumer-3  | 2026-09-25T22:30:57.977475280Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 46.94
+consumer-3  | 2026-09-25T22:30:59.974461887Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 17
+consumer-3  | 2026-09-25T22:30:59.974493380Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 60.91
+consumer-3  | 2026-09-25T22:31:02.636865314Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 18
+consumer-3  | 2026-09-25T22:31:02.636895002Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 92.11
+consumer-3  | 2026-09-25T22:31:02.636897584Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (92.11 > 80.0)
+consumer-3  | 2026-09-25T22:31:05.831728038Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 19
+consumer-3  | 2026-09-25T22:31:05.831817940Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 66.79
+consumer-3  | 2026-09-25T22:31:05.975172012Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 20
+consumer-3  | 2026-09-25T22:31:05.975203897Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 40.16
+consumer-3  | 2026-09-25T22:31:06.696453709Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 21
+consumer-3  | 2026-09-25T22:31:06.696493377Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 95.45
+consumer-3  | 2026-09-25T22:31:06.696495274Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (95.45 > 80.0)
+consumer-3  | 2026-09-25T22:31:09.825531316Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 22
+consumer-3  | 2026-09-25T22:31:09.825572161Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 31.57
+consumer-3  | 2026-09-25T22:31:09.978515682Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 12
+consumer-3  | 2026-09-25T22:31:09.978554544Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 36.34
+consumer-3  | 2026-09-25T22:31:10.643452298Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 13
+consumer-3  | 2026-09-25T22:31:10.643571979Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 46.03
+consumer-2  | 2026-09-25T22:29:54.220426548Z consumer-0d5aabb6ea72 iniciado
+consumer-1  | 2026-09-25T22:29:54.390138990Z consumer-f713e6b08a14 iniciado
+consumer-3  | 2026-09-25T22:31:11.975869083Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 14
+consumer-2  | 2026-09-25T22:29:54.222755533Z %3|1790375394.222|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 2ms in state CONNECT)
+consumer-1  | 2026-09-25T22:29:54.391430145Z %3|1790375394.391|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT)
+consumer-3  | 2026-09-25T22:31:11.975921368Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 38.63
+consumer-2  | 2026-09-25T22:29:55.220922707Z %3|1790375395.220|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT)
+consumer-1  | 2026-09-25T22:29:55.391788469Z %3|1790375395.391|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT)
+consumer-1  | 2026-09-25T22:29:56.391619469Z %3|1790375396.391|FAIL|rdkafka#consumer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT)
+consumer-1  | 2026-09-25T22:29:57.391878836Z %3|1790375397.391|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-1  | 2026-09-25T22:30:00.393196488Z %3|1790375400.392|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-1  | 2026-09-25T22:30:10.351350397Z [REBALANÇO] consumer-f713e6b08a14 recebeu as partições [0, 1]
+consumer-1  | 2026-09-25T22:30:10.640973271Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 1
+consumer-1  | 2026-09-25T22:30:10.641009884Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 93.22
+consumer-1  | 2026-09-25T22:30:10.641011643Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (93.22 > 80.0)
+consumer-1  | 2026-09-25T22:30:11.981230213Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 2
+consumer-1  | 2026-09-25T22:30:11.981302810Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 78.17
+consumer-1  | 2026-09-25T22:30:12.642967284Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 3
+consumer-1  | 2026-09-25T22:30:12.643025637Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 97.97
+consumer-1  | 2026-09-25T22:30:12.643030830Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (97.97 > 80.0)
+consumer-1  | 2026-09-25T22:30:15.832077144Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 12
+consumer-1  | 2026-09-25T22:30:15.832134286Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 33.19
+consumer-1  | 2026-09-25T22:30:15.976009848Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 13
+consumer-1  | 2026-09-25T22:30:15.976042403Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 86.38
+consumer-1  | 2026-09-25T22:30:15.976044257Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (86.38 > 80.0)
+consumer-1  | 2026-09-25T22:30:16.632205790Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 4
+consumer-1  | 2026-09-25T22:30:16.632241446Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 37.74
+consumer-1  | 2026-09-25T22:30:19.827017387Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 14
+consumer-1  | 2026-09-25T22:30:19.827170362Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 31.25
+consumer-1  | 2026-09-25T22:30:21.975862687Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 5
+consumer-1  | 2026-09-25T22:30:21.975946384Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 69.42
+consumer-1  | 2026-09-25T22:30:26.634374992Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 15
+consumer-1  | 2026-09-25T22:30:26.634412593Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 46.55
+consumer-1  | 2026-09-25T22:30:27.825382379Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 6
+consumer-1  | 2026-09-25T22:30:27.825561852Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 38.06
+consumer-1  | 2026-09-25T22:30:27.980493918Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 16
+consumer-1  | 2026-09-25T22:30:27.980573957Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 44.04
+consumer-1  | 2026-09-25T22:30:28.653991839Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 7
+consumer-1  | 2026-09-25T22:30:28.654077010Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 38.84
+consumer-1  | 2026-09-25T22:30:31.826061171Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 17
+consumer-1  | 2026-09-25T22:30:31.826150066Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 41.72
+consumer-1  | 2026-09-25T22:30:31.981215619Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 8
+consumer-1  | 2026-09-25T22:30:31.981286700Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 46.91
+consumer-1  | 2026-09-25T22:30:33.978747792Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 9
+consumer-1  | 2026-09-25T22:30:33.978786181Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 95.82
+consumer-1  | 2026-09-25T22:30:33.978789434Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (95.82 > 80.0)
+consumer-1  | 2026-09-25T22:30:35.976920623Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 18
+consumer-1  | 2026-09-25T22:30:35.976952192Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 90.97
+consumer-1  | 2026-09-25T22:30:35.976955255Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (90.97 > 80.0)
+consumer-1  | 2026-09-25T22:30:36.634918462Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 10
+consumer-1  | 2026-09-25T22:30:36.634946433Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 27.09
+consumer-1  | 2026-09-25T22:30:37.974583644Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 11
+consumer-1  | 2026-09-25T22:30:37.974612188Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 80.64
+consumer-1  | 2026-09-25T22:30:37.974615062Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (80.64 > 80.0)
+consumer-1  | 2026-09-25T22:30:41.824202253Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 19
+consumer-1  | 2026-09-25T22:30:41.824230762Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 33.4
+consumer-1  | 2026-09-25T22:30:44.636537746Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 12
+consumer-1  | 2026-09-25T22:30:44.636564674Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 79.85
+consumer-1  | 2026-09-25T22:30:47.971172184Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 20
+consumer-1  | 2026-09-25T22:30:47.971196976Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 72.69
+consumer-1  | 2026-09-25T22:30:48.631843716Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 21
+consumer-1  | 2026-09-25T22:30:48.631867985Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 26.19
+consumer-1  | 2026-09-25T22:30:49.975262654Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 22
+consumer-2  | 2026-09-25T22:29:56.221039235Z %3|1790375396.220|FAIL|rdkafka#consumer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT)
+consumer-2  | 2026-09-25T22:29:57.221248339Z %3|1790375397.220|FAIL|rdkafka#consumer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-2  | 2026-09-25T22:29:58.222069188Z %3|1790375398.221|FAIL|rdkafka#consumer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-2  | 2026-09-25T22:30:01.221629969Z %3|1790375401.221|FAIL|rdkafka#consumer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+consumer-2  | 2026-09-25T22:30:07.309589341Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [0, 1, 2, 3, 4, 5]
+consumer-2  | 2026-09-25T22:30:07.476689173Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 5 no offset 0
+consumer-2  | 2026-09-25T22:30:07.476751586Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 85.48
+consumer-2  | 2026-09-25T22:30:07.476757899Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (85.48 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.488603420Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 5 no offset 1
+consumer-2  | 2026-09-25T22:30:07.488638129Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 65.55
+consumer-2  | 2026-09-25T22:30:07.488641127Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 0
+consumer-2  | 2026-09-25T22:30:07.488643203Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 68.92
+consumer-2  | 2026-09-25T22:30:07.488645235Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 1
+consumer-2  | 2026-09-25T22:30:07.488647180Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 55.35
+consumer-2  | 2026-09-25T22:30:07.488649274Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 2
+consumer-2  | 2026-09-25T22:30:07.488651305Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 98.66
+consumer-2  | 2026-09-25T22:30:07.488653266Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (98.66 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.511998436Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 3
+consumer-2  | 2026-09-25T22:30:07.512033502Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 85.67
+consumer-2  | 2026-09-25T22:30:07.512035047Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (85.67 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.530429680Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 4
+consumer-2  | 2026-09-25T22:30:07.530471924Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 81.24
+consumer-2  | 2026-09-25T22:30:07.530473812Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (81.24 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.544387663Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 5
+consumer-2  | 2026-09-25T22:30:07.544423176Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 90.43
+consumer-2  | 2026-09-25T22:30:07.544424867Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (90.43 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.559625425Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 6
+consumer-2  | 2026-09-25T22:30:07.559673479Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 81.36
+consumer-2  | 2026-09-25T22:30:07.559675966Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (81.36 > 80.0)
+consumer-3  | 2026-09-25T22:31:12.641044912Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 23
+consumer-1  | 2026-09-25T22:30:49.975308323Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 37.13
+consumer-2  | 2026-09-25T22:30:07.583727972Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 7
+consumer-3  | 2026-09-25T22:31:12.641108118Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 77.61
+consumer-3  | 2026-09-25T22:31:15.829819049Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 24
+consumer-3  | 2026-09-25T22:31:15.829877409Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 20.89
+consumer-3  | 2026-09-25T22:31:22.636125006Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 25
+consumer-3  | 2026-09-25T22:31:22.636167906Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 25.73
+consumer-3  | 2026-09-25T22:31:23.822527762Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 26
+consumer-3  | 2026-09-25T22:31:23.822565986Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 23.32
+consumer-3  | 2026-09-25T22:31:23.974228501Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 15
+consumer-3  | 2026-09-25T22:31:23.974274732Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 80.6
+consumer-3  | 2026-09-25T22:31:23.974280487Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (80.6 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.583773921Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 28.48
+consumer-2  | 2026-09-25T22:30:07.583776223Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 8
+consumer-2  | 2026-09-25T22:30:07.583777388Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 44.16
+consumer-2  | 2026-09-25T22:30:07.583778377Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 9
+consumer-2  | 2026-09-25T22:30:07.583779800Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 28.57
+consumer-2  | 2026-09-25T22:30:07.583780870Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 10
+consumer-2  | 2026-09-25T22:30:07.583781944Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 35.64
+consumer-2  | 2026-09-25T22:30:07.583783355Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 0 no offset 11
+consumer-2  | 2026-09-25T22:30:07.583784334Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 24.22
+consumer-2  | 2026-09-25T22:30:07.583785310Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 0
+consumer-2  | 2026-09-25T22:30:07.583786299Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 77.22
+consumer-2  | 2026-09-25T22:30:07.583787739Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 1
+consumer-2  | 2026-09-25T22:30:07.583788823Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 97.73
+consumer-2  | 2026-09-25T22:30:07.583789827Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (97.73 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.600525235Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 4 no offset 0
+consumer-2  | 2026-09-25T22:30:07.600575275Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 63.88
+consumer-2  | 2026-09-25T22:30:07.600577631Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 4 no offset 1
+consumer-2  | 2026-09-25T22:30:07.600578730Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 95.35
+consumer-2  | 2026-09-25T22:30:07.600579740Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (95.35 > 80.0)
+consumer-1  | 2026-09-25T22:30:51.822313825Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 13
+consumer-1  | 2026-09-25T22:30:51.822362465Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 30.5
+consumer-1  | 2026-09-25T22:30:56.656552174Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 23
+consumer-1  | 2026-09-25T22:30:56.656576704Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 98.42
+consumer-1  | 2026-09-25T22:30:56.656578242Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (98.42 > 80.0)
+consumer-1  | 2026-09-25T22:30:57.821425098Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 24
+consumer-1  | 2026-09-25T22:30:57.821454904Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 81.05
+consumer-1  | 2026-09-25T22:30:57.821457159Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (81.05 > 80.0)
+consumer-1  | 2026-09-25T22:30:59.826949356Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 14
+consumer-1  | 2026-09-25T22:30:59.827015667Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 29.71
+consumer-1  | 2026-09-25T22:31:00.637641086Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 25
+consumer-1  | 2026-09-25T22:31:00.637677336Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 80.95
+consumer-1  | 2026-09-25T22:31:00.637680920Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (80.95 > 80.0)
+consumer-1  | 2026-09-25T22:31:01.973422520Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 26
+consumer-1  | 2026-09-25T22:31:01.973463516Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 71.52
+consumer-1  | 2026-09-25T22:31:03.823789400Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 15
+consumer-1  | 2026-09-25T22:31:03.823818027Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 71.36
+consumer-1  | 2026-09-25T22:31:04.634899341Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 27
+consumer-1  | 2026-09-25T22:31:04.634925884Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 30.07
+consumer-1  | 2026-09-25T22:31:07.826279279Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 28
+consumer-1  | 2026-09-25T22:31:07.826329915Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 97.11
+consumer-1  | 2026-09-25T22:31:07.826361355Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (97.11 > 80.0)
+consumer-1  | 2026-09-25T22:31:13.977493511Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 29
+consumer-1  | 2026-09-25T22:31:13.977530703Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 96.86
+consumer-1  | 2026-09-25T22:31:13.977533977Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (96.86 > 80.0)
+consumer-1  | 2026-09-25T22:31:16.636048197Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 30
+consumer-1  | 2026-09-25T22:31:16.636103404Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 61.97
+consumer-1  | 2026-09-25T22:31:17.823254130Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 16
+consumer-1  | 2026-09-25T22:31:17.823305521Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 76.24
+consumer-1  | 2026-09-25T22:31:18.640630098Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 31
+consumer-1  | 2026-09-25T22:31:18.640723752Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 31.53
+consumer-1  | 2026-09-25T22:31:19.821391779Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 32
+consumer-2  | 2026-09-25T22:30:07.623011539Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 4 no offset 2
+consumer-2  | 2026-09-25T22:30:07.623059051Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 34.33
+consumer-2  | 2026-09-25T22:30:07.623061189Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 1 no offset 0
+consumer-2  | 2026-09-25T22:30:07.623063332Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 78.16
+consumer-2  | 2026-09-25T22:30:07.623064908Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 0
+consumer-2  | 2026-09-25T22:30:07.623066291Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 87.41
+consumer-2  | 2026-09-25T22:30:07.623067628Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (87.41 > 80.0)
+consumer-2  | 2026-09-25T22:30:07.839247839Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 5 no offset 2
+consumer-2  | 2026-09-25T22:30:07.839293645Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 22.6
+consumer-2  | 2026-09-25T22:30:07.991628236Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 1
+consumer-2  | 2026-09-25T22:30:07.991691665Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 87.0
+consumer-2  | 2026-09-25T22:30:07.991697466Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (87.0 > 80.0)
+consumer-2  | 2026-09-25T22:30:08.644321060Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 2
+consumer-2  | 2026-09-25T22:30:08.644395053Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 24.78
+consumer-2  | 2026-09-25T22:30:09.828966217Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 3
+consumer-2  | 2026-09-25T22:30:09.829047093Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 38.02
+consumer-2  | 2026-09-25T22:30:09.989464300Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 4 no offset 3
+consumer-2  | 2026-09-25T22:30:09.989576559Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 54.6
+consumer-2  | 2026-09-25T22:30:10.314140635Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [0, 1, 2, 3, 4, 5]
+consumer-2  | 2026-09-25T22:30:10.350982211Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [2, 3]
+consumer-2  | 2026-09-25T22:30:11.827274141Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 4
+consumer-2  | 2026-09-25T22:30:11.827403664Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 35.72
+consumer-2  | 2026-09-25T22:30:14.644362517Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 2
+consumer-2  | 2026-09-25T22:30:14.644412509Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 92.68
+consumer-2  | 2026-09-25T22:30:14.644417104Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (92.68 > 80.0)
+consumer-2  | 2026-09-25T22:30:17.820244719Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 5
+consumer-2  | 2026-09-25T22:30:17.820297974Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 56.9
+consumer-3  | 2026-09-25T22:31:25.821060936Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 27
+consumer-1  | 2026-09-25T22:31:19.821429157Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 36.76
+consumer-2  | 2026-09-25T22:30:17.981811597Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 6
+consumer-2  | 2026-09-25T22:30:17.981921798Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 35.7
+consumer-2  | 2026-09-25T22:30:18.633518249Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 7
+consumer-2  | 2026-09-25T22:30:18.633549939Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 20.36
+consumer-2  | 2026-09-25T22:30:21.823548155Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 8
+consumer-2  | 2026-09-25T22:30:21.823618243Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 31.24
+consumer-2  | 2026-09-25T22:30:22.636925731Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 9
+consumer-2  | 2026-09-25T22:30:22.636981253Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 40.65
+consumer-2  | 2026-09-25T22:30:23.820875570Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 3
+consumer-2  | 2026-09-25T22:30:23.820901915Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 56.28
+consumer-2  | 2026-09-25T22:30:29.827056516Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 4
+consumer-2  | 2026-09-25T22:30:29.827108136Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 37.42
+consumer-2  | 2026-09-25T22:30:29.976081924Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 10
+consumer-2  | 2026-09-25T22:30:29.976110590Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 60.88
+consumer-2  | 2026-09-25T22:30:33.824922147Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 5
+consumer-2  | 2026-09-25T22:30:33.824956017Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 39.02
+consumer-2  | 2026-09-25T22:30:34.634066623Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 11
+consumer-2  | 2026-09-25T22:30:34.634102460Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 44.9
+consumer-2  | 2026-09-25T22:30:35.827660845Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 6
+consumer-2  | 2026-09-25T22:30:35.827745192Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 56.5
+consumer-2  | 2026-09-25T22:30:37.826454063Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 7
+consumer-2  | 2026-09-25T22:30:37.826533459Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 48.99
+consumer-2  | 2026-09-25T22:30:38.645887655Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 12
+consumer-2  | 2026-09-25T22:30:38.645979565Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 24.42
+consumer-2  | 2026-09-25T22:30:39.827006339Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 8
+consumer-2  | 2026-09-25T22:30:39.827055564Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 52.67
+consumer-2  | 2026-09-25T22:30:39.978130430Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 9
+consumer-2  | 2026-09-25T22:30:39.978163125Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 80.21
+consumer-2  | 2026-09-25T22:30:39.978167232Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (80.21 > 80.0)
+consumer-2  | 2026-09-25T22:30:41.982072782Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 13
+consumer-2  | 2026-09-25T22:30:41.982115303Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 71.03
+consumer-2  | 2026-09-25T22:30:42.639182099Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 14
+consumer-2  | 2026-09-25T22:30:42.639217924Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 89.05
+consumer-2  | 2026-09-25T22:30:42.639221654Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (89.05 > 80.0)
+consumer-2  | 2026-09-25T22:30:43.830183432Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 10
+consumer-2  | 2026-09-25T22:30:43.830237421Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 71.97
+consumer-2  | 2026-09-25T22:30:46.632915700Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 15
+consumer-2  | 2026-09-25T22:30:46.632940599Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 82.84
+consumer-2  | 2026-09-25T22:30:46.632942382Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (82.84 > 80.0)
+consumer-2  | 2026-09-25T22:30:52.633830978Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 11
+consumer-2  | 2026-09-25T22:30:52.633861939Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 24.41
+consumer-2  | 2026-09-25T22:30:55.822817975Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 12
+consumer-2  | 2026-09-25T22:30:55.822848516Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 80.03
+consumer-2  | 2026-09-25T22:30:55.822851577Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (80.03 > 80.0)
+consumer-2  | 2026-09-25T22:30:55.973787918Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 16
+consumer-2  | 2026-09-25T22:30:55.973815565Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 22.96
+consumer-2  | 2026-09-25T22:30:58.636797896Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 13
+consumer-2  | 2026-09-25T22:30:58.636830438Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 63.25
+consumer-2  | 2026-09-25T22:31:01.825693864Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 14
+consumer-2  | 2026-09-25T22:31:01.825742583Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 77.51
+consumer-2  | 2026-09-25T22:31:03.973764140Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 15
+consumer-2  | 2026-09-25T22:31:03.973786854Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 21.08
+consumer-2  | 2026-09-25T22:31:07.982599315Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 16
+consumer-2  | 2026-09-25T22:31:07.982787378Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 82.38
+consumer-2  | 2026-09-25T22:31:07.982853077Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (82.38 > 80.0)
+consumer-2  | 2026-09-25T22:31:08.642548491Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 17
+consumer-2  | 2026-09-25T22:31:08.642621851Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 86.44
+consumer-2  | 2026-09-25T22:31:08.642626170Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (86.44 > 80.0)
+consumer-2  | 2026-09-25T22:31:11.825863375Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 18
+consumer-2  | 2026-09-25T22:31:11.825898287Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 84.93
+consumer-2  | 2026-09-25T22:31:11.825901262Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (84.93 > 80.0)
+consumer-2  | 2026-09-25T22:31:13.823866381Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 19
+consumer-1  | 2026-09-25T22:31:21.973740840Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 33
+consumer-1  | 2026-09-25T22:31:21.973780597Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 93.88
+consumer-1  | 2026-09-25T22:31:21.973785116Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (93.88 > 80.0)
+consumer-1  | 2026-09-25T22:31:24.635889480Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 17
+consumer-1  | 2026-09-25T22:31:24.635921322Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 45.92
+consumer-1  | 2026-09-25T22:31:27.974026132Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 34
+consumer-1  | 2026-09-25T22:31:27.974063846Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 57.08
+consumer-1  | 2026-09-25T22:31:29.827047144Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 35
+consumer-1  | 2026-09-25T22:31:29.827153917Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 96.89
+consumer-1  | 2026-09-25T22:31:29.827164568Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (96.89 > 80.0)
+consumer-1  | 2026-09-25T22:31:31.825000836Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 18
+consumer-1  | 2026-09-25T22:31:31.825065035Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 35.74
+consumer-1  | 2026-09-25T22:31:39.827952702Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 36
+consumer-1  | 2026-09-25T22:31:39.828032354Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 28.34
+consumer-1  | 2026-09-25T22:31:42.638221645Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 37
+consumer-1  | 2026-09-25T22:31:42.638257756Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 75.83
+consumer-1  | 2026-09-25T22:31:44.640799733Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 38
+consumer-1  | 2026-09-25T22:31:44.640861857Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 56.21
+consumer-1  | 2026-09-25T22:31:46.635781491Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 39
+consumer-1  | 2026-09-25T22:31:46.635809712Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 91.81
+consumer-1  | 2026-09-25T22:31:46.635811884Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (91.81 > 80.0)
+consumer-1  | 2026-09-25T22:31:54.638126416Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 40
+consumer-1  | 2026-09-25T22:31:54.638174496Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 70.18
+consumer-1  | 2026-09-25T22:31:56.637648784Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 19
+consumer-2  | 2026-09-25T22:31:13.823905257Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 58.64
+consumer-2  | 2026-09-25T22:31:14.640536573Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 20
+consumer-2  | 2026-09-25T22:31:14.640571567Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 26.54
+consumer-2  | 2026-09-25T22:31:15.979026332Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 17
+consumer-2  | 2026-09-25T22:31:15.979061657Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 84.57
+consumer-2  | 2026-09-25T22:31:15.979064995Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (84.57 > 80.0)
+consumer-2  | 2026-09-25T22:31:17.974413458Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 18
+consumer-2  | 2026-09-25T22:31:17.974453840Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 66.36
+consumer-2  | 2026-09-25T22:31:19.972823499Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 19
+consumer-2  | 2026-09-25T22:31:19.972856571Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 45.85
+consumer-2  | 2026-09-25T22:31:20.634667363Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 20
+consumer-2  | 2026-09-25T22:31:20.634693481Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 33.9
+consumer-2  | 2026-09-25T22:31:21.849446193Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 21
+consumer-2  | 2026-09-25T22:31:21.849494738Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 99.6
+consumer-2  | 2026-09-25T22:31:21.849497981Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (99.6 > 80.0)
+consumer-2  | 2026-09-25T22:31:26.665583542Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 21
+consumer-2  | 2026-09-25T22:31:26.665609417Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 37.27
+consumer-2  | 2026-09-25T22:31:27.822491083Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 22
+consumer-2  | 2026-09-25T22:31:27.822543768Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 38.82
+consumer-2  | 2026-09-25T22:31:30.635826316Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 23
+consumer-2  | 2026-09-25T22:31:30.635853819Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 34.0
+consumer-2  | 2026-09-25T22:31:31.975624094Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 24
+consumer-2  | 2026-09-25T22:31:31.975668747Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 65.63
+consumer-3  | 2026-09-25T22:31:25.821088165Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 63.28
+consumer-3  | 2026-09-25T22:31:25.976088270Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 16
+consumer-3  | 2026-09-25T22:31:25.976124480Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 71.14
+consumer-3  | 2026-09-25T22:31:28.638908323Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 28
+consumer-3  | 2026-09-25T22:31:28.638993733Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 38.41
+consumer-3  | 2026-09-25T22:31:29.978468648Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 17
+consumer-3  | 2026-09-25T22:31:29.978548898Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 50.91
+consumer-3  | 2026-09-25T22:31:32.640055682Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 18
+consumer-3  | 2026-09-25T22:31:32.640210031Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 30.56
+consumer-3  | 2026-09-25T22:31:33.821698020Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 29
+consumer-3  | 2026-09-25T22:31:33.821718468Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 60.03
+consumer-3  | 2026-09-25T22:31:33.975525372Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 30
+consumer-3  | 2026-09-25T22:31:33.975555806Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 84.25
+consumer-3  | 2026-09-25T22:31:33.975559394Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (84.25 > 80.0)
+consumer-3  | 2026-09-25T22:31:35.826001634Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 19
+consumer-3  | 2026-09-25T22:31:35.826051982Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 50.14
+consumer-3  | 2026-09-25T22:31:36.646570468Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 31
+consumer-3  | 2026-09-25T22:31:36.646736579Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 74.32
+consumer-3  | 2026-09-25T22:31:37.978563676Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 20
+consumer-3  | 2026-09-25T22:31:37.979229487Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 73.2
+consumer-3  | 2026-09-25T22:31:38.639718009Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 32
+consumer-1  | 2026-09-25T22:31:56.637712436Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 24.5
+consumer-1  | 2026-09-25T22:31:57.824215546Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 20
+consumer-1  | 2026-09-25T22:31:57.824249762Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 64.02
+consumer-1  | 2026-09-25T22:31:59.869512811Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 21
+consumer-1  | 2026-09-25T22:31:59.869541230Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 61.89
+consumer-1  | 2026-09-25T22:32:02.641931377Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 41
+consumer-3  | 2026-09-25T22:31:38.639754334Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 88.18
+consumer-3  | 2026-09-25T22:31:38.639757599Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (88.18 > 80.0)
+consumer-3  | 2026-09-25T22:31:41.871391896Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 21
+consumer-3  | 2026-09-25T22:31:41.871420446Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 29.88
+consumer-3  | 2026-09-25T22:31:43.826540048Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 33
+consumer-3  | 2026-09-25T22:31:43.826634388Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 27.47
+consumer-3  | 2026-09-25T22:31:43.977890981Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 22
+consumer-3  | 2026-09-25T22:31:43.977945498Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 43.91
+consumer-3  | 2026-09-25T22:31:45.825557195Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 34
+consumer-3  | 2026-09-25T22:31:45.825597262Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 52.51
+consumer-3  | 2026-09-25T22:31:45.978138798Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 23
+consumer-3  | 2026-09-25T22:31:45.978235548Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 41.15
+consumer-3  | 2026-09-25T22:31:48.641765997Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 35
+consumer-2  | 2026-09-25T22:31:34.638917039Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 22
+consumer-2  | 2026-09-25T22:31:34.638969731Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 87.27
+consumer-2  | 2026-09-25T22:31:34.638974728Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (87.27 > 80.0)
+consumer-2  | 2026-09-25T22:31:35.974814780Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 25
+consumer-2  | 2026-09-25T22:31:35.974840125Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 55.15
+consumer-1  | 2026-09-25T22:32:02.641986207Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 30.1
+consumer-1  | 2026-09-25T22:32:07.979470576Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 22
+consumer-1  | 2026-09-25T22:32:07.979498392Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 87.14
+consumer-1  | 2026-09-25T22:32:07.979501688Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (87.14 > 80.0)
+consumer-1  | 2026-09-25T22:32:11.981023072Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 23
+consumer-1  | 2026-09-25T22:32:11.981051687Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 57.37
+consumer-1  | 2026-09-25T22:32:19.979570688Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 42
+consumer-1  | 2026-09-25T22:32:19.979604526Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 54.31
+consumer-1  | 2026-09-25T22:32:21.979688297Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 24
+consumer-1  | 2026-09-25T22:32:21.979718060Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 95.38
+consumer-1  | 2026-09-25T22:32:21.979721339Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (95.38 > 80.0)
+consumer-1  | 2026-09-25T22:32:25.832538484Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 25
+consumer-1  | 2026-09-25T22:32:25.832629759Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 36.36
+consumer-1  | 2026-09-25T22:32:26.638923443Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 26
+consumer-1  | 2026-09-25T22:32:26.638959084Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 40.81
+consumer-1  | 2026-09-25T22:32:27.832244784Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 43
+consumer-1  | 2026-09-25T22:32:27.832295455Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 96.88
+consumer-1  | 2026-09-25T22:32:27.832300327Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (96.88 > 80.0)
+consumer-1  | 2026-09-25T22:32:28.642897854Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 27
+consumer-1  | 2026-09-25T22:32:28.642934531Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 71.27
+consumer-1  | 2026-09-25T22:32:29.827039450Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 44
+consumer-1  | 2026-09-25T22:32:29.827083872Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 42.02
+consumer-1  | 2026-09-25T22:32:30.639221645Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 45
+consumer-1  | 2026-09-25T22:32:30.639243546Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 47.63
+consumer-1  | 2026-09-25T22:32:31.830364871Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 28
+consumer-1  | 2026-09-25T22:32:31.830404981Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 47.4
+consumer-1  | 2026-09-25T22:32:31.982639471Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 46
+consumer-1  | 2026-09-25T22:32:31.982688112Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 38.22
+consumer-1  | 2026-09-25T22:32:36.643023110Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 29
+consumer-1  | 2026-09-25T22:32:36.643045079Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 41.65
+consumer-1  | 2026-09-25T22:32:38.643716473Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 30
+consumer-1  | 2026-09-25T22:32:38.643756696Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 91.6
+consumer-1  | 2026-09-25T22:32:38.643758965Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (91.6 > 80.0)
+consumer-1  | 2026-09-25T22:32:41.984810417Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 31
+consumer-1  | 2026-09-25T22:32:41.984842020Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 86.94
+consumer-1  | 2026-09-25T22:32:41.984845032Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (86.94 > 80.0)
+consumer-1  | 2026-09-25T22:32:43.835146281Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 47
+consumer-1  | 2026-09-25T22:32:43.835190277Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 55.14
+consumer-1  | 2026-09-25T22:32:47.828849257Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 32
+consumer-1  | 2026-09-25T22:32:47.828882296Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 29.74
+consumer-1  | 2026-09-25T22:32:47.982382852Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 33
+consumer-1  | 2026-09-25T22:32:47.982427849Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 38.52
+consumer-1  | 2026-09-25T22:32:48.642455136Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 34
+consumer-1  | 2026-09-25T22:32:48.642508795Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 75.7
+consumer-1  | 2026-09-25T22:32:49.981783995Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 48
+consumer-1  | 2026-09-25T22:32:49.981812105Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 38.85
+consumer-1  | 2026-09-25T22:32:50.643868859Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 49
+consumer-1  | 2026-09-25T22:32:50.643911142Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 98.29
+consumer-1  | 2026-09-25T22:32:50.643916534Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (98.29 > 80.0)
+consumer-1  | 2026-09-25T22:32:52.644181498Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 50
+consumer-1  | 2026-09-25T22:32:52.644310945Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 51.98
+consumer-1  | 2026-09-25T22:32:53.980765172Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 51
+consumer-1  | 2026-09-25T22:32:53.980806804Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 20.69
+consumer-1  | 2026-09-25T22:32:54.647263651Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 52
+consumer-1  | 2026-09-25T22:32:54.647294770Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 65.97
+consumer-1  | 2026-09-25T22:32:55.831934917Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 35
+consumer-2  | 2026-09-25T22:31:37.833394262Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 26
+consumer-2  | 2026-09-25T22:31:37.833489446Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 35.71
+consumer-2  | 2026-09-25T22:31:39.982565050Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 27
+consumer-2  | 2026-09-25T22:31:39.982659182Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 75.08
+consumer-2  | 2026-09-25T22:31:40.645003141Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 28
+consumer-2  | 2026-09-25T22:31:40.645082541Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 83.47
+consumer-2  | 2026-09-25T22:31:40.645089905Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (83.47 > 80.0)
+consumer-2  | 2026-09-25T22:31:41.978241525Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 23
+consumer-2  | 2026-09-25T22:31:41.978272903Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 69.11
+consumer-2  | 2026-09-25T22:31:47.827464342Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 24
+consumer-2  | 2026-09-25T22:31:47.827599383Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 46.19
+consumer-2  | 2026-09-25T22:31:47.974620550Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 25
+consumer-2  | 2026-09-25T22:31:47.974674393Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 59.79
+consumer-2  | 2026-09-25T22:31:49.822637862Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 29
+consumer-2  | 2026-09-25T22:31:49.822843810Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 50.32
+consumer-2  | 2026-09-25T22:31:50.635128385Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 26
+consumer-2  | 2026-09-25T22:31:50.635164419Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 89.66
+consumer-2  | 2026-09-25T22:31:50.635166273Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (89.66 > 80.0)
+consumer-2  | 2026-09-25T22:31:51.976422498Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 30
+consumer-2  | 2026-09-25T22:31:51.976490706Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 83.82
+consumer-2  | 2026-09-25T22:31:51.976496642Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (83.82 > 80.0)
+consumer-2  | 2026-09-25T22:31:53.977282076Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 31
+consumer-2  | 2026-09-25T22:31:53.977337723Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 87.08
+consumer-2  | 2026-09-25T22:31:53.977341740Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (87.08 > 80.0)
+consumer-2  | 2026-09-25T22:31:55.979753546Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 32
+consumer-2  | 2026-09-25T22:31:55.979861627Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 58.36
+consumer-2  | 2026-09-25T22:32:04.637914330Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 33
+consumer-2  | 2026-09-25T22:32:04.637951482Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 85.53
+consumer-2  | 2026-09-25T22:32:04.637955425Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (85.53 > 80.0)
+consumer-2  | 2026-09-25T22:32:05.977927396Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 27
+consumer-2  | 2026-09-25T22:32:05.977951217Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 71.6
+consumer-2  | 2026-09-25T22:32:06.640294718Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 34
+consumer-2  | 2026-09-25T22:32:06.640320087Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 32.93
+consumer-3  | 2026-09-25T22:31:48.641996614Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 99.28
+consumer-1  | 2026-09-25T22:32:55.831983948Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 21.58
+consumer-1  | 2026-09-25T22:32:55.986270729Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 53
+consumer-1  | 2026-09-25T22:32:55.986392708Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 28.24
+consumer-1  | 2026-09-25T22:32:58.642583728Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 54
+consumer-1  | 2026-09-25T22:32:58.642653886Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 95.6
+consumer-1  | 2026-09-25T22:32:58.642661940Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (95.6 > 80.0)
+consumer-1  | 2026-09-25T22:33:01.831821674Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 55
+consumer-1  | 2026-09-25T22:33:01.831842403Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 72.06
+consumer-1  | 2026-09-25T22:33:02.645699903Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 36
+consumer-1  | 2026-09-25T22:33:02.645749609Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 76.88
+consumer-1  | 2026-09-25T22:33:03.835393070Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 56
+consumer-1  | 2026-09-25T22:33:03.835446123Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 83.37
+consumer-1  | 2026-09-25T22:33:03.835451647Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (83.37 > 80.0)
+consumer-1  | 2026-09-25T22:33:05.838453888Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 37
+consumer-1  | 2026-09-25T22:33:05.838635303Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 53.48
+consumer-1  | 2026-09-25T22:33:07.835656560Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 38
+consumer-1  | 2026-09-25T22:33:07.835688086Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 97.24
+consumer-1  | 2026-09-25T22:33:07.835691312Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (97.24 > 80.0)
+consumer-1  | 2026-09-25T22:33:15.837958891Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 39
+consumer-1  | 2026-09-25T22:33:15.837989631Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 70.42
+consumer-1  | 2026-09-25T22:33:17.982899678Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 40
+consumer-1  | 2026-09-25T22:33:17.982930683Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 21.38
+consumer-1  | 2026-09-25T22:33:19.833667121Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 57
+consumer-1  | 2026-09-25T22:33:19.833697552Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 76.52
+consumer-1  | 2026-09-25T22:33:19.985067933Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 41
+consumer-1  | 2026-09-25T22:33:19.985120690Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 43.27
+consumer-1  | 2026-09-25T22:33:21.833693174Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 58
+consumer-2  | 2026-09-25T22:32:07.833483826Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 28
+consumer-2  | 2026-09-25T22:32:07.833544093Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 91.22
+consumer-2  | 2026-09-25T22:32:07.833550069Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (91.22 > 80.0)
+consumer-2  | 2026-09-25T22:32:08.641876227Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 35
+consumer-2  | 2026-09-25T22:32:08.641928085Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 55.85
+consumer-2  | 2026-09-25T22:32:09.828759698Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 29
+consumer-2  | 2026-09-25T22:32:09.828807211Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 31.51
+consumer-2  | 2026-09-25T22:32:09.985320500Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 30
+consumer-2  | 2026-09-25T22:32:09.985386563Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 32.89
+consumer-2  | 2026-09-25T22:32:10.641312230Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 36
+consumer-2  | 2026-09-25T22:32:10.641349056Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 55.39
+consumer-2  | 2026-09-25T22:32:11.828728853Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 31
+consumer-2  | 2026-09-25T22:32:11.828758510Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 55.28
+consumer-2  | 2026-09-25T22:32:13.830314063Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 32
+consumer-2  | 2026-09-25T22:32:13.830350493Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 80.02
+consumer-2  | 2026-09-25T22:32:13.830353674Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (80.02 > 80.0)
+consumer-2  | 2026-09-25T22:32:15.831715754Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 37
+consumer-2  | 2026-09-25T22:32:15.831905925Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 85.58
+consumer-2  | 2026-09-25T22:32:15.831935168Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (85.58 > 80.0)
+consumer-2  | 2026-09-25T22:32:16.638785875Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 33
+consumer-2  | 2026-09-25T22:32:16.638816986Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 75.74
+consumer-3  | 2026-09-25T22:31:48.642106447Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (99.28 > 80.0)
+consumer-1  | 2026-09-25T22:33:21.833715368Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 60.46
+consumer-1  | 2026-09-25T22:33:22.644229329Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 59
+consumer-1  | 2026-09-25T22:33:22.644271355Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 50.17
+consumer-1  | 2026-09-25T22:33:23.835333174Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 42
+consumer-1  | 2026-09-25T22:33:23.835366288Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 40.68
+consumer-1  | 2026-09-25T22:33:24.648425992Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 60
+consumer-1  | 2026-09-25T22:33:24.648514226Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 68.87
+consumer-1  | 2026-09-25T22:33:25.843305422Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 61
+consumer-1  | 2026-09-25T22:33:25.843392040Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 25.74
+consumer-1  | 2026-09-25T22:33:27.838108108Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 62
+consumer-1  | 2026-09-25T22:33:27.838141295Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 43.52
+consumer-1  | 2026-09-25T22:33:27.985103645Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 63
+consumer-1  | 2026-09-25T22:33:27.985133574Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 72.6
+consumer-1  | 2026-09-25T22:33:30.645874298Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 64
+consumer-1  | 2026-09-25T22:33:30.645922121Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 49.64
+consumer-1  | 2026-09-25T22:33:32.646219063Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 43
+consumer-1  | 2026-09-25T22:33:32.646244250Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 66.36
+consumer-1  | 2026-09-25T22:33:33.987157415Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 44
+consumer-1  | 2026-09-25T22:33:33.987188683Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 61.9
+consumer-1  | 2026-09-25T22:33:37.840018227Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 45
+consumer-1  | 2026-09-25T22:33:37.840061823Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 70.28
+consumer-1  | 2026-09-25T22:33:38.648095618Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 65
+consumer-1  | 2026-09-25T22:33:38.648134331Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 73.37
+consumer-1  | 2026-09-25T22:33:39.992843249Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 46
+consumer-1  | 2026-09-25T22:33:39.992917332Z consumer-f713e6b08a14 processou dados do sensor-98c03ad4c36c: temperatura = 51.19
+consumer-1  | 2026-09-25T22:33:41.839998645Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 66
+consumer-1  | 2026-09-25T22:33:41.840026286Z consumer-f713e6b08a14 processou dados do sensor-b608cc4773ef: temperatura = 50.35
+consumer-1  | 2026-09-25T22:33:42.646993850Z consumer-f713e6b08a14 recebeu uma mensagem da partição 0 no offset 67
+consumer-1  | 2026-09-25T22:33:42.647029056Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 54.95
+consumer-1  | 2026-09-25T22:33:46.644044096Z consumer-f713e6b08a14 recebeu uma mensagem da partição 1 no offset 47
+consumer-1  | 2026-09-25T22:33:46.644071518Z consumer-f713e6b08a14 processou dados do sensor-b163150026b1: temperatura = 45.28
+consumer-2  | 2026-09-25T22:32:17.826227529Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 34
+consumer-2  | 2026-09-25T22:32:17.826254214Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 38.59
+consumer-2  | 2026-09-25T22:32:18.000880133Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 38
+consumer-2  | 2026-09-25T22:32:18.000958009Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 32.6
+consumer-2  | 2026-09-25T22:32:23.978987645Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 39
+consumer-2  | 2026-09-25T22:32:23.979017546Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 96.19
+consumer-2  | 2026-09-25T22:32:23.979020387Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (96.19 > 80.0)
+consumer-2  | 2026-09-25T22:32:24.642155630Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 40
+consumer-2  | 2026-09-25T22:32:24.642190155Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 56.1
+consumer-3  | 2026-09-25T22:31:49.980274459Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 24
+consumer-2  | 2026-09-25T22:32:25.984654132Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 41
+consumer-2  | 2026-09-25T22:32:25.984707012Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 88.97
+consumer-2  | 2026-09-25T22:32:25.984712228Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (88.97 > 80.0)
+consumer-2  | 2026-09-25T22:32:33.830885798Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 35
+consumer-2  | 2026-09-25T22:32:33.830951532Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 30.17
+consumer-2  | 2026-09-25T22:32:37.831309164Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 36
+consumer-2  | 2026-09-25T22:32:37.831355686Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 80.25
+consumer-2  | 2026-09-25T22:32:37.831360164Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (80.25 > 80.0)
+consumer-2  | 2026-09-25T22:32:37.983709836Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 42
+consumer-2  | 2026-09-25T22:32:37.983757069Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 99.63
+consumer-2  | 2026-09-25T22:32:37.983762335Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (99.63 > 80.0)
+consumer-2  | 2026-09-25T22:32:39.830071066Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 37
+consumer-2  | 2026-09-25T22:32:39.830102219Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 68.64
+consumer-2  | 2026-09-25T22:32:43.985730743Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 43
+consumer-3  | 2026-09-25T22:31:49.980421537Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 76.31
+consumer-3  | 2026-09-25T22:31:51.823750150Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 25
+consumer-3  | 2026-09-25T22:31:51.823799469Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 50.74
+consumer-3  | 2026-09-25T22:31:52.641763214Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 26
+consumer-3  | 2026-09-25T22:31:52.641847931Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 49.23
+consumer-3  | 2026-09-25T22:31:53.821392394Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 36
+consumer-3  | 2026-09-25T22:31:53.821462593Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 86.27
+consumer-3  | 2026-09-25T22:31:53.821506193Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (86.27 > 80.0)
+consumer-3  | 2026-09-25T22:31:55.829194169Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 27
+consumer-3  | 2026-09-25T22:31:55.829297545Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 89.85
+consumer-3  | 2026-09-25T22:31:55.829330844Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (89.85 > 80.0)
+consumer-3  | 2026-09-25T22:31:57.986287086Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 37
+consumer-3  | 2026-09-25T22:31:57.986402055Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 60.88
+consumer-2  | 2026-09-25T22:32:43.985782421Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 50.95
+consumer-2  | 2026-09-25T22:32:45.987548863Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 38
+consumer-2  | 2026-09-25T22:32:45.987589325Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 60.12
+consumer-2  | 2026-09-25T22:32:49.828941810Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 44
+consumer-2  | 2026-09-25T22:32:49.828988185Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 61.27
+consumer-2  | 2026-09-25T22:32:51.981588733Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 45
+consumer-2  | 2026-09-25T22:32:51.981623369Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 43.56
+consumer-2  | 2026-09-25T22:32:57.836984904Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 46
+consumer-2  | 2026-09-25T22:32:57.837025352Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 20.7
+consumer-2  | 2026-09-25T22:33:04.643026931Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 47
+consumer-2  | 2026-09-25T22:33:04.643050130Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 36.4
+consumer-2  | 2026-09-25T22:33:07.986867133Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 48
+consumer-2  | 2026-09-25T22:33:07.986990105Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 75.63
+consumer-2  | 2026-09-25T22:33:09.989191966Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 49
+consumer-2  | 2026-09-25T22:33:09.989239412Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 68.58
+consumer-2  | 2026-09-25T22:33:12.650193939Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 50
+consumer-2  | 2026-09-25T22:33:12.650246606Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 39.32
+consumer-2  | 2026-09-25T22:33:13.837641803Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 51
+consumer-2  | 2026-09-25T22:33:13.837668776Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 55.66
+consumer-2  | 2026-09-25T22:33:15.987002304Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 39
+consumer-2  | 2026-09-25T22:33:15.987028159Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 70.82
+consumer-2  | 2026-09-25T22:33:16.642423788Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 40
+consumer-3  | 2026-09-25T22:31:58.637270381Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 28
+consumer-3  | 2026-09-25T22:31:58.637397009Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 39.29
+consumer-3  | 2026-09-25T22:31:59.984418563Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 29
+consumer-3  | 2026-09-25T22:31:59.984605655Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 99.08
+consumer-3  | 2026-09-25T22:31:59.984630072Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (99.08 > 80.0)
+consumer-3  | 2026-09-25T22:32:00.639902658Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 30
+consumer-3  | 2026-09-25T22:32:00.639953221Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 46.06
+consumer-3  | 2026-09-25T22:32:01.827958499Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 38
+consumer-3  | 2026-09-25T22:32:01.828012795Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 93.56
+consumer-3  | 2026-09-25T22:32:01.828017379Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (93.56 > 80.0)
+consumer-3  | 2026-09-25T22:32:01.977790644Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 39
+consumer-3  | 2026-09-25T22:32:01.977816200Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 42.18
+consumer-3  | 2026-09-25T22:32:03.825301839Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 40
+consumer-3  | 2026-09-25T22:32:03.825323590Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 45.74
+consumer-3  | 2026-09-25T22:32:03.979517888Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 41
+consumer-3  | 2026-09-25T22:32:03.979585821Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 87.52
+consumer-3  | 2026-09-25T22:32:03.979593678Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (87.52 > 80.0)
+consumer-3  | 2026-09-25T22:32:05.826179888Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 42
+consumer-3  | 2026-09-25T22:32:05.826211633Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 59.93
+consumer-3  | 2026-09-25T22:32:12.644132850Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 43
+consumer-3  | 2026-09-25T22:32:12.644174308Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 43.64
+consumer-3  | 2026-09-25T22:32:13.980436183Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 44
+consumer-3  | 2026-09-25T22:32:13.980537979Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 20.18
+consumer-3  | 2026-09-25T22:32:14.641083974Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 45
+consumer-3  | 2026-09-25T22:32:14.641112046Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 55.46
+consumer-3  | 2026-09-25T22:32:15.981682527Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 31
+consumer-3  | 2026-09-25T22:32:15.981719567Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 35.63
+consumer-3  | 2026-09-25T22:32:18.640722550Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 32
+consumer-3  | 2026-09-25T22:32:18.640764638Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 88.63
+consumer-3  | 2026-09-25T22:32:18.640769357Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (88.63 > 80.0)
+consumer-3  | 2026-09-25T22:32:19.829207290Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 46
+consumer-3  | 2026-09-25T22:32:19.829240610Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 61.4
+consumer-3  | 2026-09-25T22:32:20.640278483Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 47
+consumer-3  | 2026-09-25T22:32:20.640320181Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 71.5
+consumer-3  | 2026-09-25T22:32:21.827288324Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 48
+consumer-3  | 2026-09-25T22:32:21.827328295Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 49.49
+consumer-2  | 2026-09-25T22:33:16.642466945Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 81.53
+consumer-2  | 2026-09-25T22:33:16.642500333Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (81.53 > 80.0)
+consumer-2  | 2026-09-25T22:33:18.644303111Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 52
+consumer-2  | 2026-09-25T22:33:18.644351617Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 34.72
+consumer-2  | 2026-09-25T22:33:21.988136385Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 53
+consumer-2  | 2026-09-25T22:33:21.988240352Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 91.99
+consumer-2  | 2026-09-25T22:33:21.988251584Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (91.99 > 80.0)
+consumer-2  | 2026-09-25T22:33:23.986901895Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 41
+consumer-2  | 2026-09-25T22:33:23.986937192Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 29.18
+consumer-2  | 2026-09-25T22:33:25.985846127Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 42
+consumer-2  | 2026-09-25T22:33:25.985881039Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 94.79
+consumer-2  | 2026-09-25T22:33:25.985884284Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (94.79 > 80.0)
+consumer-2  | 2026-09-25T22:33:26.645959507Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 43
+consumer-2  | 2026-09-25T22:33:26.646006840Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 33.56
+consumer-2  | 2026-09-25T22:33:28.648142150Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 44
+consumer-2  | 2026-09-25T22:33:28.648238916Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 55.25
+consumer-2  | 2026-09-25T22:33:29.838003484Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 54
+consumer-2  | 2026-09-25T22:33:29.838045817Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 83.15
+consumer-2  | 2026-09-25T22:33:29.838050355Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (83.15 > 80.0)
+consumer-2  | 2026-09-25T22:33:31.838823856Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 2 no offset 45
+consumer-2  | 2026-09-25T22:33:31.838866110Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 72.01
+consumer-2  | 2026-09-25T22:33:34.645456865Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 55
+consumer-2  | 2026-09-25T22:33:34.645484013Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 85.83
+consumer-2  | 2026-09-25T22:33:34.645485925Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (85.83 > 80.0)
+consumer-2  | 2026-09-25T22:33:35.987136805Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 56
+consumer-3  | 2026-09-25T22:32:22.639575226Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 33
+consumer-3  | 2026-09-25T22:32:22.639625519Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 23.97
+consumer-3  | 2026-09-25T22:32:23.828203474Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 34
+consumer-3  | 2026-09-25T22:32:23.828252037Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 45.22
+consumer-3  | 2026-09-25T22:32:27.981346115Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 49
+consumer-3  | 2026-09-25T22:32:27.981475250Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 92.14
+consumer-3  | 2026-09-25T22:32:27.981485111Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (92.14 > 80.0)
+consumer-3  | 2026-09-25T22:32:29.983540408Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 35
+consumer-3  | 2026-09-25T22:32:29.983647326Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 88.22
+consumer-3  | 2026-09-25T22:32:29.983702817Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (88.22 > 80.0)
+consumer-3  | 2026-09-25T22:32:32.642531266Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 36
+consumer-3  | 2026-09-25T22:32:32.642712665Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 72.6
+consumer-3  | 2026-09-25T22:32:33.982973717Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 37
+consumer-3  | 2026-09-25T22:32:33.983009841Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 59.84
+consumer-3  | 2026-09-25T22:32:34.643257339Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 38
+consumer-3  | 2026-09-25T22:32:34.643294470Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 82.15
+consumer-3  | 2026-09-25T22:32:34.643298335Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (82.15 > 80.0)
+consumer-3  | 2026-09-25T22:32:35.828489446Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 39
+consumer-3  | 2026-09-25T22:32:35.828524539Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 20.82
+consumer-3  | 2026-09-25T22:32:35.982398600Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 40
+consumer-3  | 2026-09-25T22:32:35.982430189Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 95.84
+consumer-3  | 2026-09-25T22:32:35.982432009Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (95.84 > 80.0)
+consumer-3  | 2026-09-25T22:32:39.985906025Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 50
+consumer-3  | 2026-09-25T22:32:39.985961492Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 88.95
+consumer-3  | 2026-09-25T22:32:39.985965669Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (88.95 > 80.0)
+consumer-3  | 2026-09-25T22:32:40.645144416Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 41
+consumer-3  | 2026-09-25T22:32:40.645191650Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 32.52
+consumer-3  | 2026-09-25T22:32:41.843694055Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 51
+consumer-3  | 2026-09-25T22:32:41.843760387Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 70.71
+consumer-3  | 2026-09-25T22:32:42.645672549Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 52
+consumer-3  | 2026-09-25T22:32:42.645736119Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 80.3
+consumer-3  | 2026-09-25T22:32:42.645743654Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (80.3 > 80.0)
+consumer-2  | 2026-09-25T22:33:35.987163897Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 84.52
+consumer-2  | 2026-09-25T22:33:35.987166781Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (84.52 > 80.0)
+consumer-2  | 2026-09-25T22:33:37.989196670Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 57
+consumer-2  | 2026-09-25T22:33:37.989232796Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 72.49
+consumer-2  | 2026-09-25T22:33:39.840648496Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 58
+consumer-2  | 2026-09-25T22:33:39.840678286Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 35.53
+consumer-2  | 2026-09-25T22:33:40.648853582Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 59
+consumer-2  | 2026-09-25T22:33:40.648884188Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 91.56
+consumer-2  | 2026-09-25T22:33:40.648887922Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (91.56 > 80.0)
+consumer-2  | 2026-09-25T22:33:43.840229305Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 60
+consumer-2  | 2026-09-25T22:33:43.840261382Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 82.58
+consumer-2  | 2026-09-25T22:33:43.840263135Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (82.58 > 80.0)
+consumer-2  | 2026-09-25T22:33:44.650017405Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 61
+consumer-2  | 2026-09-25T22:33:44.650086736Z consumer-0d5aabb6ea72 processou dados do sensor-b163150026b1: temperatura = 29.46
+consumer-2  | 2026-09-25T22:33:45.847631255Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 62
+consumer-2  | 2026-09-25T22:33:45.847691377Z consumer-0d5aabb6ea72 processou dados do sensor-b608cc4773ef: temperatura = 97.84
+consumer-2  | 2026-09-25T22:33:45.847696491Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (97.84 > 80.0)
+consumer-2  | 2026-09-25T22:33:45.991135731Z consumer-0d5aabb6ea72 recebeu uma mensagem da partição 3 no offset 63
+consumer-2  | 2026-09-25T22:33:45.991179667Z consumer-0d5aabb6ea72 processou dados do sensor-98c03ad4c36c: temperatura = 41.35
+consumer-3  | 2026-09-25T22:32:44.644175190Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 42
+consumer-3  | 2026-09-25T22:32:44.644199591Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 55.5
+consumer-3  | 2026-09-25T22:32:45.833876467Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 53
+consumer-3  | 2026-09-25T22:32:45.833934710Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 71.74
+consumer-3  | 2026-09-25T22:32:46.646104298Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 43
+consumer-3  | 2026-09-25T22:32:46.646236563Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 64.92
+consumer-3  | 2026-09-25T22:32:51.835364126Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 44
+consumer-3  | 2026-09-25T22:32:51.835431196Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 98.79
+consumer-3  | 2026-09-25T22:32:51.835438377Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (98.79 > 80.0)
+consumer-3  | 2026-09-25T22:32:53.833162008Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 54
+consumer-3  | 2026-09-25T22:32:53.833200124Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 23.93
+consumer-3  | 2026-09-25T22:32:56.642739570Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 45
+consumer-3  | 2026-09-25T22:32:56.642795048Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 81.05
+consumer-3  | 2026-09-25T22:32:56.642829208Z ALERTA: temperatura do sensor-b163150026b1 acima do limite (81.05 > 80.0)
+consumer-3  | 2026-09-25T22:32:57.983192895Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 55
+consumer-3  | 2026-09-25T22:32:57.983246942Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 76.44
+consumer-3  | 2026-09-25T22:32:59.836267108Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 46
+consumer-3  | 2026-09-25T22:32:59.836312427Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 34.71
+consumer-3  | 2026-09-25T22:32:59.985002383Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 47
+consumer-3  | 2026-09-25T22:32:59.985063951Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 45.94
+consumer-3  | 2026-09-25T22:33:00.646304216Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 48
+consumer-3  | 2026-09-25T22:33:00.646343058Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 60.94
+consumer-3  | 2026-09-25T22:33:01.985462718Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 49
+consumer-3  | 2026-09-25T22:33:01.985632004Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 27.86
+consumer-3  | 2026-09-25T22:33:03.984512758Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 50
+consumer-3  | 2026-09-25T22:33:03.984552474Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 92.07
+consumer-3  | 2026-09-25T22:33:03.984557038Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (92.07 > 80.0)
+consumer-3  | 2026-09-25T22:33:05.987415026Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 56
+consumer-3  | 2026-09-25T22:33:05.987453906Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 26.92
+consumer-3  | 2026-09-25T22:33:06.644912574Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 51
+consumer-3  | 2026-09-25T22:33:06.644936998Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 53.09
+consumer-3  | 2026-09-25T22:33:08.649217565Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 57
+consumer-3  | 2026-09-25T22:33:08.649294889Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 52.92
+consumer-3  | 2026-09-25T22:33:09.835718346Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 58
+consumer-3  | 2026-09-25T22:33:09.835750871Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 22.62
+consumer-3  | 2026-09-25T22:33:10.645611889Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 59
+consumer-3  | 2026-09-25T22:33:10.645645553Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 50.63
+consumer-3  | 2026-09-25T22:33:11.838755157Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 60
+consumer-3  | 2026-09-25T22:33:11.838788449Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 26.18
+consumer-3  | 2026-09-25T22:33:11.987422380Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 52
+consumer-3  | 2026-09-25T22:33:11.987495080Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 42.13
+consumer-3  | 2026-09-25T22:33:13.987874373Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 53
+consumer-3  | 2026-09-25T22:33:13.987904430Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 52.25
+consumer-3  | 2026-09-25T22:33:14.647801204Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 54
+consumer-3  | 2026-09-25T22:33:14.647833255Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 36.19
+consumer-3  | 2026-09-25T22:33:17.833757868Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 61
+consumer-3  | 2026-09-25T22:33:17.833788738Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 38.02
+consumer-3  | 2026-09-25T22:33:20.644124416Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 55
+consumer-3  | 2026-09-25T22:33:20.644155579Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 35.83
+consumer-3  | 2026-09-25T22:33:29.988658579Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 56
+consumer-3  | 2026-09-25T22:33:29.988725982Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 58.89
+consumer-3  | 2026-09-25T22:33:31.988427815Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 57
+consumer-3  | 2026-09-25T22:33:31.988488358Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 79.54
+consumer-3  | 2026-09-25T22:33:33.839482319Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 58
+consumer-3  | 2026-09-25T22:33:33.839525526Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 93.71
+consumer-3  | 2026-09-25T22:33:33.839531141Z ALERTA: temperatura do sensor-b608cc4773ef acima do limite (93.71 > 80.0)
+consumer-3  | 2026-09-25T22:33:35.839328219Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 59
+consumer-3  | 2026-09-25T22:33:35.839356451Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 40.06
+consumer-3  | 2026-09-25T22:33:36.649415406Z consumer-33366a8570f2 recebeu uma mensagem da partição 4 no offset 62
+consumer-3  | 2026-09-25T22:33:36.649467731Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 26.15
+consumer-3  | 2026-09-25T22:33:41.987916659Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 60
+consumer-3  | 2026-09-25T22:33:41.987955680Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 89.5
+consumer-3  | 2026-09-25T22:33:41.987957723Z ALERTA: temperatura do sensor-98c03ad4c36c acima do limite (89.5 > 80.0)
+consumer-3  | 2026-09-25T22:33:43.990651387Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 61
+consumer-3  | 2026-09-25T22:33:43.990774844Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 56.96
+consumer-3  | 2026-09-25T22:33:47.839238469Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 62
+consumer-3  | 2026-09-25T22:33:47.839305947Z consumer-33366a8570f2 processou dados do sensor-b608cc4773ef: temperatura = 73.22
+consumer-3  | 2026-09-25T22:33:47.989024009Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 63
+consumer-3  | 2026-09-25T22:33:47.989088159Z consumer-33366a8570f2 processou dados do sensor-98c03ad4c36c: temperatura = 34.65
+consumer-3  | 2026-09-25T22:33:48.646048121Z consumer-33366a8570f2 recebeu uma mensagem da partição 5 no offset 64
+consumer-3  | 2026-09-25T22:33:48.646144888Z consumer-33366a8570f2 processou dados do sensor-b163150026b1: temperatura = 66.63

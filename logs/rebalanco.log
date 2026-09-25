@@ -1,0 +1,5 @@
+consumer-3  | 2026-09-25T22:30:10.352610861Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições [4, 5]
+consumer-1  | 2026-09-25T22:30:10.351350397Z [REBALANÇO] consumer-f713e6b08a14 recebeu as partições [0, 1]
+consumer-2  | 2026-09-25T22:30:07.309589341Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [0, 1, 2, 3, 4, 5]
+consumer-2  | 2026-09-25T22:30:10.314140635Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [0, 1, 2, 3, 4, 5]
+consumer-2  | 2026-09-25T22:30:10.350982211Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições [2, 3]

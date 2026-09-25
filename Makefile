@@ -3,12 +3,14 @@
 
 BROKER ?= kafka2
 N ?= 4
+S ?= 6
+C ?= 4
 SERVICO ?= consumer
 TOPICO ?= dados-sensores
 
 .PHONY: up rodar down limpar status logs logs-produtores logs-consumidores \
         logs-rebalanco salvar-logs alertas falha-broker falha-consumidor \
-        queda-consumidor escalar
+        queda-consumidor escalar escalar-tudo
 
 ## Sobe todo o sistema (brokers, sensores e consumidores)
 up:
@@ -75,3 +77,7 @@ queda-consumidor:
 ## Muda o número de réplicas (make escalar N=5 SERVICO=producer)
 escalar:
 	bash scripts/escalar.sh $(N) $(SERVICO)
+
+## Muda sensores e consumidores ao mesmo tempo (make escalar-tudo S=8 C=5)
+escalar-tudo:
+	bash scripts/escalar-tudo.sh $(S) $(C)

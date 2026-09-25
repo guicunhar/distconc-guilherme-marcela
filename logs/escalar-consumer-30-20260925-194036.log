@@ -1,0 +1,217 @@
+===== Fri Sep 25 19:40:36 -03 2026 - Escalando consumer para 30 réplicas
+ Container kafka3 Running 
+ Container distconc-guilherme-marcela-consumer-1 Running 
+ Container distconc-guilherme-marcela-consumer-2 Running 
+ Container distconc-guilherme-marcela-consumer-3 Running 
+ Container kafka1 Running 
+ Container kafka2 Running 
+ Container distconc-guilherme-marcela-consumer-11 Creating 
+ Container distconc-guilherme-marcela-consumer-30 Creating 
+ Container distconc-guilherme-marcela-consumer-20 Creating 
+ Container distconc-guilherme-marcela-consumer-21 Creating 
+ Container distconc-guilherme-marcela-consumer-12 Creating 
+ Container distconc-guilherme-marcela-consumer-22 Creating 
+ Container distconc-guilherme-marcela-consumer-7 Creating 
+ Container distconc-guilherme-marcela-consumer-9 Creating 
+ Container distconc-guilherme-marcela-consumer-13 Creating 
+ Container distconc-guilherme-marcela-consumer-23 Creating 
+ Container distconc-guilherme-marcela-consumer-24 Creating 
+ Container distconc-guilherme-marcela-consumer-14 Creating 
+ Container distconc-guilherme-marcela-consumer-8 Creating 
+ Container distconc-guilherme-marcela-consumer-25 Creating 
+ Container distconc-guilherme-marcela-consumer-4 Creating 
+ Container distconc-guilherme-marcela-consumer-5 Creating 
+ Container distconc-guilherme-marcela-consumer-17 Creating 
+ Container distconc-guilherme-marcela-consumer-15 Creating 
+ Container distconc-guilherme-marcela-consumer-27 Creating 
+ Container distconc-guilherme-marcela-consumer-26 Creating 
+ Container distconc-guilherme-marcela-consumer-18 Creating 
+ Container distconc-guilherme-marcela-consumer-28 Creating 
+ Container distconc-guilherme-marcela-consumer-16 Creating 
+ Container distconc-guilherme-marcela-consumer-29 Creating 
+ Container distconc-guilherme-marcela-consumer-19 Creating 
+ Container distconc-guilherme-marcela-consumer-10 Creating 
+ Container distconc-guilherme-marcela-consumer-6 Creating 
+ Container distconc-guilherme-marcela-consumer-13 Created 
+ Container distconc-guilherme-marcela-consumer-23 Created 
+ Container distconc-guilherme-marcela-consumer-15 Created 
+ Container distconc-guilherme-marcela-consumer-24 Created 
+ Container distconc-guilherme-marcela-consumer-19 Created 
+ Container distconc-guilherme-marcela-consumer-12 Created 
+ Container distconc-guilherme-marcela-consumer-5 Created 
+ Container distconc-guilherme-marcela-consumer-27 Created 
+ Container distconc-guilherme-marcela-consumer-29 Created 
+ Container distconc-guilherme-marcela-consumer-28 Created 
+ Container distconc-guilherme-marcela-consumer-14 Created 
+ Container distconc-guilherme-marcela-consumer-22 Created 
+ Container distconc-guilherme-marcela-consumer-30 Created 
+ Container distconc-guilherme-marcela-consumer-17 Created 
+ Container distconc-guilherme-marcela-consumer-10 Created 
+ Container distconc-guilherme-marcela-consumer-4 Created 
+ Container distconc-guilherme-marcela-consumer-11 Created 
+ Container distconc-guilherme-marcela-consumer-21 Created 
+ Container distconc-guilherme-marcela-consumer-20 Created 
+ Container distconc-guilherme-marcela-consumer-18 Created 
+ Container distconc-guilherme-marcela-consumer-25 Created 
+ Container distconc-guilherme-marcela-consumer-8 Created 
+ Container distconc-guilherme-marcela-consumer-26 Created 
+ Container distconc-guilherme-marcela-consumer-16 Created 
+ Container distconc-guilherme-marcela-consumer-6 Created 
+ Container distconc-guilherme-marcela-consumer-7 Created 
+ Container distconc-guilherme-marcela-consumer-9 Created 
+ Container distconc-guilherme-marcela-consumer-7 Starting 
+ Container distconc-guilherme-marcela-consumer-7 Started 
+ Container distconc-guilherme-marcela-consumer-9 Starting 
+ Container distconc-guilherme-marcela-consumer-9 Started 
+ Container distconc-guilherme-marcela-consumer-8 Starting 
+ Container distconc-guilherme-marcela-consumer-8 Started 
+ Container distconc-guilherme-marcela-consumer-26 Starting 
+ Container distconc-guilherme-marcela-consumer-26 Started 
+ Container distconc-guilherme-marcela-consumer-6 Starting 
+ Container distconc-guilherme-marcela-consumer-6 Started 
+ Container distconc-guilherme-marcela-consumer-16 Starting 
+ Container distconc-guilherme-marcela-consumer-16 Started 
+ Container distconc-guilherme-marcela-consumer-22 Starting 
+ Container distconc-guilherme-marcela-consumer-22 Started 
+ Container distconc-guilherme-marcela-consumer-17 Starting 
+ Container distconc-guilherme-marcela-consumer-17 Started 
+ Container distconc-guilherme-marcela-consumer-25 Starting 
+ Container distconc-guilherme-marcela-consumer-25 Started 
+ Container distconc-guilherme-marcela-consumer-21 Starting 
+ Container distconc-guilherme-marcela-consumer-21 Started 
+ Container distconc-guilherme-marcela-consumer-18 Starting 
+ Container distconc-guilherme-marcela-consumer-18 Started 
+ Container distconc-guilherme-marcela-consumer-20 Starting 
+ Container distconc-guilherme-marcela-consumer-20 Started 
+ Container distconc-guilherme-marcela-consumer-10 Starting 
+ Container distconc-guilherme-marcela-consumer-10 Started 
+ Container distconc-guilherme-marcela-consumer-11 Starting 
+ Container distconc-guilherme-marcela-consumer-11 Started 
+ Container distconc-guilherme-marcela-consumer-4 Starting 
+ Container distconc-guilherme-marcela-consumer-4 Started 
+ Container distconc-guilherme-marcela-consumer-30 Starting 
+ Container distconc-guilherme-marcela-consumer-30 Started 
+ Container distconc-guilherme-marcela-consumer-14 Starting 
+ Container distconc-guilherme-marcela-consumer-14 Started 
+ Container distconc-guilherme-marcela-consumer-28 Starting 
+ Container distconc-guilherme-marcela-consumer-28 Started 
+ Container distconc-guilherme-marcela-consumer-29 Starting 
+ Container distconc-guilherme-marcela-consumer-29 Started 
+ Container distconc-guilherme-marcela-consumer-12 Starting 
+ Container distconc-guilherme-marcela-consumer-12 Started 
+ Container distconc-guilherme-marcela-consumer-27 Starting 
+ Container distconc-guilherme-marcela-consumer-27 Started 
+ Container distconc-guilherme-marcela-consumer-5 Starting 
+ Container distconc-guilherme-marcela-consumer-5 Started 
+ Container distconc-guilherme-marcela-consumer-19 Starting 
+ Container distconc-guilherme-marcela-consumer-19 Started 
+ Container distconc-guilherme-marcela-consumer-24 Starting 
+ Container distconc-guilherme-marcela-consumer-24 Started 
+ Container distconc-guilherme-marcela-consumer-15 Starting 
+ Container distconc-guilherme-marcela-consumer-15 Started 
+ Container distconc-guilherme-marcela-consumer-23 Starting 
+ Container distconc-guilherme-marcela-consumer-23 Started 
+ Container distconc-guilherme-marcela-consumer-13 Starting 
+ Container distconc-guilherme-marcela-consumer-13 Started 
+
+===== Réplicas de consumer rodando
+NAME                                     IMAGE                                                                     COMMAND                  SERVICE    CREATED          STATUS              PORTS
+distconc-guilherme-marcela-consumer-1    sha256:9515111c5235ddd2adaa69ae1e88f0fcdad74cc2c4948b3449cae862afa7fa8d   "python -u consumer.…"   consumer   11 minutes ago   Up About a minute   
+distconc-guilherme-marcela-consumer-10   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-11   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-12   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 16 seconds       
+distconc-guilherme-marcela-consumer-13   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 15 seconds       
+distconc-guilherme-marcela-consumer-14   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-15   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 15 seconds       
+distconc-guilherme-marcela-consumer-16   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 19 seconds       
+distconc-guilherme-marcela-consumer-17   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 18 seconds       
+distconc-guilherme-marcela-consumer-18   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 18 seconds       
+distconc-guilherme-marcela-consumer-19   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 16 seconds       
+distconc-guilherme-marcela-consumer-2    sha256:9515111c5235ddd2adaa69ae1e88f0fcdad74cc2c4948b3449cae862afa7fa8d   "python -u consumer.…"   consumer   11 minutes ago   Up 11 minutes       
+distconc-guilherme-marcela-consumer-20   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 18 seconds       
+distconc-guilherme-marcela-consumer-21   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 18 seconds       
+distconc-guilherme-marcela-consumer-22   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 19 seconds       
+distconc-guilherme-marcela-consumer-23   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 15 seconds       
+distconc-guilherme-marcela-consumer-24   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 15 seconds       
+distconc-guilherme-marcela-consumer-25   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 18 seconds       
+distconc-guilherme-marcela-consumer-26   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 19 seconds       
+distconc-guilherme-marcela-consumer-27   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 16 seconds       
+distconc-guilherme-marcela-consumer-28   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-29   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 16 seconds       
+distconc-guilherme-marcela-consumer-3    sha256:9515111c5235ddd2adaa69ae1e88f0fcdad74cc2c4948b3449cae862afa7fa8d   "python -u consumer.…"   consumer   11 minutes ago   Up 11 minutes       
+distconc-guilherme-marcela-consumer-30   distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-4    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 17 seconds       
+distconc-guilherme-marcela-consumer-5    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 16 seconds       
+distconc-guilherme-marcela-consumer-6    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 19 seconds       
+distconc-guilherme-marcela-consumer-7    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 20 seconds       
+distconc-guilherme-marcela-consumer-8    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 19 seconds       
+distconc-guilherme-marcela-consumer-9    distconc-guilherme-marcela-consumer                                       "python -u consumer.…"   consumer   22 seconds ago   Up 20 seconds       
+
+===== Eventos de rebalanço
+consumer-6  | 2026-09-25T22:40:40.882025546Z [REBALANÇO] consumer-c20c2fdc5d80 recebeu as partições [5]
+consumer-6  | 2026-09-25T22:40:43.885864434Z [REBALANÇO] consumer-c20c2fdc5d80 perdeu as partições [5]
+consumer-6  | 2026-09-25T22:40:43.909927711Z [REBALANÇO] consumer-c20c2fdc5d80 recebeu as partições []
+consumer-11  | 2026-09-25T22:40:40.880938191Z [REBALANÇO] consumer-48342406b13f recebeu as partições []
+consumer-11  | 2026-09-25T22:40:43.886699368Z [REBALANÇO] consumer-48342406b13f perdeu as partições []
+consumer-11  | 2026-09-25T22:40:43.908904263Z [REBALANÇO] consumer-48342406b13f recebeu as partições []
+consumer-28  | 2026-09-25T22:40:43.909005078Z [REBALANÇO] consumer-3c2142d69042 recebeu as partições []
+consumer-23  | 2026-09-25T22:40:43.909043706Z [REBALANÇO] consumer-59575df6092f recebeu as partições []
+consumer-14  | 2026-09-25T22:40:43.908755268Z [REBALANÇO] consumer-b71abb022b9d recebeu as partições [1]
+consumer-1   | 2026-09-25T22:40:40.856166573Z [REBALANÇO] consumer-f713e6b08a14 perdeu as partições [4, 5]
+consumer-1   | 2026-09-25T22:40:40.881867063Z [REBALANÇO] consumer-f713e6b08a14 recebeu as partições []
+consumer-1   | 2026-09-25T22:40:43.889125937Z [REBALANÇO] consumer-f713e6b08a14 perdeu as partições []
+consumer-1   | 2026-09-25T22:40:43.908702491Z [REBALANÇO] consumer-f713e6b08a14 recebeu as partições []
+consumer-3   | 2026-09-25T22:40:40.854952112Z [REBALANÇO] consumer-33366a8570f2 perdeu as partições [2, 3]
+consumer-3   | 2026-09-25T22:40:40.883220282Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições []
+consumer-3   | 2026-09-25T22:40:43.886667412Z [REBALANÇO] consumer-33366a8570f2 perdeu as partições []
+consumer-3   | 2026-09-25T22:40:43.910717038Z [REBALANÇO] consumer-33366a8570f2 recebeu as partições []
+consumer-30  | 2026-09-25T22:40:43.909052737Z [REBALANÇO] consumer-a20aa09b568f recebeu as partições []
+consumer-24  | 2026-09-25T22:40:43.908822858Z [REBALANÇO] consumer-24a4a1b547f6 recebeu as partições []
+consumer-2   | 2026-09-25T22:40:40.858928432Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições [0, 1]
+consumer-2   | 2026-09-25T22:40:40.882100582Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições []
+consumer-2   | 2026-09-25T22:40:43.889134363Z [REBALANÇO] consumer-0d5aabb6ea72 perdeu as partições []
+consumer-2   | 2026-09-25T22:40:43.910351062Z [REBALANÇO] consumer-0d5aabb6ea72 recebeu as partições []
+consumer-21  | 2026-09-25T22:40:40.881814894Z [REBALANÇO] consumer-acac9830627d recebeu as partições []
+consumer-21  | 2026-09-25T22:40:43.886465702Z [REBALANÇO] consumer-acac9830627d perdeu as partições []
+consumer-21  | 2026-09-25T22:40:43.909745527Z [REBALANÇO] consumer-acac9830627d recebeu as partições []
+consumer-27  | 2026-09-25T22:40:43.908864756Z [REBALANÇO] consumer-60c8690f18ac recebeu as partições []
+consumer-10  | 2026-09-25T22:40:40.881898388Z [REBALANÇO] consumer-d5c728094122 recebeu as partições [0]
+consumer-10  | 2026-09-25T22:40:43.888689159Z [REBALANÇO] consumer-d5c728094122 perdeu as partições [0]
+consumer-10  | 2026-09-25T22:40:43.909091240Z [REBALANÇO] consumer-d5c728094122 recebeu as partições [3]
+consumer-13  | 2026-09-25T22:40:43.910767572Z [REBALANÇO] consumer-cd7fac13e368 recebeu as partições []
+consumer-26  | 2026-09-25T22:40:40.883529856Z [REBALANÇO] consumer-ebc2cc27056f recebeu as partições []
+consumer-26  | 2026-09-25T22:40:43.889803180Z [REBALANÇO] consumer-ebc2cc27056f perdeu as partições []
+consumer-26  | 2026-09-25T22:40:43.908845363Z [REBALANÇO] consumer-ebc2cc27056f recebeu as partições []
+consumer-9   | 2026-09-25T22:40:40.880802226Z [REBALANÇO] consumer-8b045a59d377 recebeu as partições [2]
+consumer-9   | 2026-09-25T22:40:43.885937691Z [REBALANÇO] consumer-8b045a59d377 perdeu as partições [2]
+consumer-9   | 2026-09-25T22:40:43.908669561Z [REBALANÇO] consumer-8b045a59d377 recebeu as partições [5]
+consumer-20  | 2026-09-25T22:40:40.883249185Z [REBALANÇO] consumer-15e3255a254d recebeu as partições []
+consumer-20  | 2026-09-25T22:40:43.886554744Z [REBALANÇO] consumer-15e3255a254d perdeu as partições []
+consumer-20  | 2026-09-25T22:40:43.908489857Z [REBALANÇO] consumer-15e3255a254d recebeu as partições []
+consumer-22  | 2026-09-25T22:40:40.882653463Z [REBALANÇO] consumer-d4ee2407f35e recebeu as partições [3]
+consumer-22  | 2026-09-25T22:40:43.886411355Z [REBALANÇO] consumer-d4ee2407f35e perdeu as partições [3]
+consumer-22  | 2026-09-25T22:40:43.908812392Z [REBALANÇO] consumer-d4ee2407f35e recebeu as partições []
+consumer-25  | 2026-09-25T22:40:40.882054975Z [REBALANÇO] consumer-ea12c48acd50 recebeu as partições [1]
+consumer-25  | 2026-09-25T22:40:43.889854077Z [REBALANÇO] consumer-ea12c48acd50 perdeu as partições [1]
+consumer-25  | 2026-09-25T22:40:43.910803706Z [REBALANÇO] consumer-ea12c48acd50 recebeu as partições [4]
+consumer-15  | 2026-09-25T22:40:43.908735138Z [REBALANÇO] consumer-c6d6e0acf841 recebeu as partições []
+consumer-4   | 2026-09-25T22:40:43.909212202Z [REBALANÇO] consumer-e70c175a47fd recebeu as partições []
+consumer-8   | 2026-09-25T22:40:40.882082810Z [REBALANÇO] consumer-4cc65e761151 recebeu as partições [4]
+consumer-8   | 2026-09-25T22:40:43.889131452Z [REBALANÇO] consumer-4cc65e761151 perdeu as partições [4]
+consumer-8   | 2026-09-25T22:40:43.909873657Z [REBALANÇO] consumer-4cc65e761151 recebeu as partições []
+consumer-18  | 2026-09-25T22:40:40.880528188Z [REBALANÇO] consumer-8979762285ff recebeu as partições []
+consumer-18  | 2026-09-25T22:40:43.888360684Z [REBALANÇO] consumer-8979762285ff perdeu as partições []
+consumer-18  | 2026-09-25T22:40:43.908881209Z [REBALANÇO] consumer-8979762285ff recebeu as partições []
+consumer-17  | 2026-09-25T22:40:40.881033580Z [REBALANÇO] consumer-7af78767efec recebeu as partições []
+consumer-17  | 2026-09-25T22:40:43.885905752Z [REBALANÇO] consumer-7af78767efec perdeu as partições []
+consumer-17  | 2026-09-25T22:40:43.908493965Z [REBALANÇO] consumer-7af78767efec recebeu as partições []
+consumer-5   | 2026-09-25T22:40:43.909852078Z [REBALANÇO] consumer-85c696eeb744 recebeu as partições []
+consumer-19  | 2026-09-25T22:40:43.910202826Z [REBALANÇO] consumer-66b6137b442c recebeu as partições [0]
+consumer-7   | 2026-09-25T22:40:40.881926422Z [REBALANÇO] consumer-8835df5fa414 recebeu as partições []
+consumer-7   | 2026-09-25T22:40:43.888773843Z [REBALANÇO] consumer-8835df5fa414 perdeu as partições []
+consumer-7   | 2026-09-25T22:40:43.909025625Z [REBALANÇO] consumer-8835df5fa414 recebeu as partições []
+consumer-29  | 2026-09-25T22:40:43.909822459Z [REBALANÇO] consumer-f856ec21a4be recebeu as partições []
+consumer-12  | 2026-09-25T22:40:43.910296620Z [REBALANÇO] consumer-a7ce7106f1ee recebeu as partições [2]
+consumer-16  | 2026-09-25T22:40:40.881312093Z [REBALANÇO] consumer-797d47836e42 recebeu as partições []
+consumer-16  | 2026-09-25T22:40:43.888810448Z [REBALANÇO] consumer-797d47836e42 perdeu as partições []
+consumer-16  | 2026-09-25T22:40:43.909001366Z [REBALANÇO] consumer-797d47836e42 recebeu as partições []

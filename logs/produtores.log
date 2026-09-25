@@ -1,0 +1,730 @@
+producer-1  | 2026-09-25T22:29:53.954341829Z Sensor iniciado: sensor-98c03ad4c36c
+producer-1  | 2026-09-25T22:29:53.956048857Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:29:53.954407', 'temperatura': 81.36, 'vibracao': 9.22, 'energia': 333.57}
+producer-1  | 2026-09-25T22:29:53.958378195Z %3|1790375393.957|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 3ms in state CONNECT)
+producer-1  | 2026-09-25T22:29:54.953881983Z %3|1790375394.953|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 0ms in state CONNECT)
+producer-1  | 2026-09-25T22:29:55.954587980Z %3|1790375395.954|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 1ms in state CONNECT)
+producer-1  | 2026-09-25T22:29:55.956543818Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:29:55.956082', 'temperatura': 28.48, 'vibracao': 8.19, 'energia': 391.53}
+producer-1  | 2026-09-25T22:29:56.954343189Z %3|1790375396.953|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+producer-1  | 2026-09-25T22:29:57.957060238Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:29:57.956564', 'temperatura': 44.16, 'vibracao': 0.69, 'energia': 231.59}
+producer-1  | 2026-09-25T22:29:58.955510306Z %3|1790375398.955|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+producer-1  | 2026-09-25T22:29:59.957570641Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:29:59.957164', 'temperatura': 28.57, 'vibracao': 1.09, 'energia': 283.06}
+producer-1  | 2026-09-25T22:30:01.957874642Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:01.957494', 'temperatura': 35.64, 'vibracao': 9.75, 'energia': 478.11}
+producer-1  | 2026-09-25T22:30:02.956162254Z %3|1790375402.955|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+producer-1  | 2026-09-25T22:30:03.958443556Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:03.957905', 'temperatura': 24.22, 'vibracao': 4.92, 'energia': 396.36}
+producer-1  | 2026-09-25T22:30:05.959831776Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:05.958657', 'temperatura': 65.55, 'vibracao': 5.59, 'energia': 283.78}
+producer-1  | 2026-09-25T22:30:05.959894947Z Mensagem enviada para partição 0 no offset 6
+producer-1  | 2026-09-25T22:30:05.959900566Z Mensagem enviada para partição 0 no offset 7
+producer-1  | 2026-09-25T22:30:05.959903229Z Mensagem enviada para partição 0 no offset 8
+producer-1  | 2026-09-25T22:30:05.959905580Z Mensagem enviada para partição 0 no offset 9
+producer-1  | 2026-09-25T22:30:05.959908037Z Mensagem enviada para partição 0 no offset 10
+producer-1  | 2026-09-25T22:30:05.959910687Z Mensagem enviada para partição 0 no offset 11
+producer-1  | 2026-09-25T22:30:07.960800546Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:07.960110', 'temperatura': 87.0, 'vibracao': 7.13, 'energia': 355.48}
+producer-1  | 2026-09-25T22:30:07.960873730Z Mensagem enviada para partição 5 no offset 1
+producer-1  | 2026-09-25T22:30:09.961281893Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:09.960755', 'temperatura': 54.6, 'vibracao': 3.3, 'energia': 352.09}
+producer-1  | 2026-09-25T22:30:09.961332714Z Mensagem enviada para partição 3 no offset 1
+producer-1  | 2026-09-25T22:30:11.961656691Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:11.961153', 'temperatura': 78.17, 'vibracao': 7.38, 'energia': 257.95}
+producer-1  | 2026-09-25T22:30:11.961710441Z Mensagem enviada para partição 4 no offset 3
+producer-1  | 2026-09-25T22:30:13.962086868Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:13.961660', 'temperatura': 63.99, 'vibracao': 0.03, 'energia': 225.18}
+producer-1  | 2026-09-25T22:30:13.962121718Z Mensagem enviada para partição 1 no offset 2
+producer-1  | 2026-09-25T22:30:15.962841687Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:15.962197', 'temperatura': 86.38, 'vibracao': 5.87, 'energia': 140.47}
+producer-1  | 2026-09-25T22:30:15.962892916Z Mensagem enviada para partição 5 no offset 3
+producer-1  | 2026-09-25T22:30:17.959392159Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:17.957888', 'temperatura': 35.7, 'vibracao': 8.17, 'energia': 299.39}
+producer-1  | 2026-09-25T22:30:17.959871068Z Mensagem enviada para partição 0 no offset 13
+producer-1  | 2026-09-25T22:30:19.960038675Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:19.959649', 'temperatura': 39.43, 'vibracao': 4.14, 'energia': 230.91}
+producer-1  | 2026-09-25T22:30:19.960076541Z Mensagem enviada para partição 2 no offset 6
+producer-1  | 2026-09-25T22:30:21.960379429Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:21.960064', 'temperatura': 69.42, 'vibracao': 4.63, 'energia': 257.62}
+producer-1  | 2026-09-25T22:30:21.960412064Z Mensagem enviada para partição 4 no offset 5
+producer-1  | 2026-09-25T22:30:23.960757427Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:23.960443', 'temperatura': 99.74, 'vibracao': 9.4, 'energia': 124.13}
+producer-1  | 2026-09-25T22:30:23.960792360Z Mensagem enviada para partição 1 no offset 5
+producer-1  | 2026-09-25T22:30:25.961272892Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:25.960792', 'temperatura': 33.47, 'vibracao': 1.87, 'energia': 187.43}
+producer-1  | 2026-09-25T22:30:25.961306055Z Mensagem enviada para partição 4 no offset 7
+producer-1  | 2026-09-25T22:30:27.962044148Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:27.961271', 'temperatura': 44.04, 'vibracao': 5.93, 'energia': 170.62}
+producer-1  | 2026-09-25T22:30:27.962230891Z Mensagem enviada para partição 4 no offset 9
+producer-1  | 2026-09-25T22:30:29.962246134Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:29.961767', 'temperatura': 60.88, 'vibracao': 4.61, 'energia': 134.73}
+producer-1  | 2026-09-25T22:30:29.962281707Z Mensagem enviada para partição 0 no offset 16
+producer-1  | 2026-09-25T22:30:31.962687990Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:31.962262', 'temperatura': 46.91, 'vibracao': 0.85, 'energia': 316.58}
+producer-1  | 2026-09-25T22:30:31.962729324Z Mensagem enviada para partição 2 no offset 10
+producer-1  | 2026-09-25T22:30:33.963153043Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:33.962663', 'temperatura': 95.82, 'vibracao': 2.2, 'energia': 402.34}
+producer-1  | 2026-09-25T22:30:33.963203836Z Mensagem enviada para partição 1 no offset 8
+producer-1  | 2026-09-25T22:30:35.963479314Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:35.963121', 'temperatura': 90.97, 'vibracao': 5.3, 'energia': 277.25}
+producer-1  | 2026-09-25T22:30:35.963514728Z Mensagem enviada para partição 1 no offset 9
+producer-1  | 2026-09-25T22:30:37.963726546Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:37.963451', 'temperatura': 80.64, 'vibracao': 2.32, 'energia': 480.15}
+producer-1  | 2026-09-25T22:30:37.963757132Z Mensagem enviada para partição 0 no offset 18
+producer-1  | 2026-09-25T22:30:39.964422644Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:39.963905', 'temperatura': 80.21, 'vibracao': 7.83, 'energia': 188.05}
+producer-1  | 2026-09-25T22:30:39.964473734Z Mensagem enviada para partição 1 no offset 11
+producer-1  | 2026-09-25T22:30:41.964952821Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:41.964515', 'temperatura': 71.03, 'vibracao': 3.58, 'energia': 226.4}
+producer-1  | 2026-09-25T22:30:41.964998969Z Mensagem enviada para partição 3 no offset 9
+producer-1  | 2026-09-25T22:30:43.965513482Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:43.965024', 'temperatura': 27.54, 'vibracao': 0.44, 'energia': 330.18}
+producer-1  | 2026-09-25T22:30:43.965558820Z Mensagem enviada para partição 2 no offset 13
+producer-1  | 2026-09-25T22:30:45.965950505Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:45.965524', 'temperatura': 90.97, 'vibracao': 4.53, 'energia': 170.3}
+producer-1  | 2026-09-25T22:30:45.965994023Z Mensagem enviada para partição 4 no offset 10
+producer-1  | 2026-09-25T22:30:47.961463945Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:47.960994', 'temperatura': 72.69, 'vibracao': 1.98, 'energia': 303.06}
+producer-1  | 2026-09-25T22:30:47.961505293Z Mensagem enviada para partição 4 no offset 11
+producer-1  | 2026-09-25T22:30:49.961853827Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:49.961429', 'temperatura': 37.13, 'vibracao': 3.76, 'energia': 479.53}
+producer-1  | 2026-09-25T22:30:49.961896290Z Mensagem enviada para partição 0 no offset 20
+producer-1  | 2026-09-25T22:30:51.962016988Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:51.961793', 'temperatura': 27.49, 'vibracao': 9.62, 'energia': 104.1}
+producer-1  | 2026-09-25T22:30:51.962041948Z Mensagem enviada para partição 0 no offset 22
+producer-1  | 2026-09-25T22:30:53.962475406Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:53.962074', 'temperatura': 48.6, 'vibracao': 2.08, 'energia': 271.13}
+producer-1  | 2026-09-25T22:30:53.962521859Z Mensagem enviada para partição 4 no offset 14
+producer-1  | 2026-09-25T22:30:55.962997316Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:55.962482', 'temperatura': 22.96, 'vibracao': 3.55, 'energia': 183.48}
+producer-1  | 2026-09-25T22:30:55.963036832Z Mensagem enviada para partição 4 no offset 15
+producer-1  | 2026-09-25T22:30:57.963244585Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:57.962834', 'temperatura': 46.94, 'vibracao': 8.73, 'energia': 397.36}
+producer-1  | 2026-09-25T22:30:57.963306620Z Mensagem enviada para partição 2 no offset 16
+producer-1  | 2026-09-25T22:30:59.963829115Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:30:59.963244', 'temperatura': 60.91, 'vibracao': 6.18, 'energia': 198.02}
+producer-1  | 2026-09-25T22:30:59.963868484Z Mensagem enviada para partição 5 no offset 11
+producer-1  | 2026-09-25T22:31:01.964008113Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:01.963712', 'temperatura': 71.52, 'vibracao': 6.35, 'energia': 446.7}
+producer-1  | 2026-09-25T22:31:01.964037800Z Mensagem enviada para partição 4 no offset 17
+producer-1  | 2026-09-25T22:31:03.964311731Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:03.964127', 'temperatura': 21.08, 'vibracao': 6.53, 'energia': 456.31}
+producer-1  | 2026-09-25T22:31:03.964347441Z Mensagem enviada para partição 0 no offset 26
+producer-1  | 2026-09-25T22:31:05.964859987Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:05.964474', 'temperatura': 40.16, 'vibracao': 1.54, 'energia': 192.39}
+producer-1  | 2026-09-25T22:31:05.964912633Z Mensagem enviada para partição 3 no offset 15
+producer-1  | 2026-09-25T22:31:07.965439529Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:07.965025', 'temperatura': 82.38, 'vibracao': 7.84, 'energia': 211.44}
+producer-1  | 2026-09-25T22:31:07.965479120Z Mensagem enviada para partição 4 no offset 20
+producer-1  | 2026-09-25T22:31:09.965891899Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:09.965460', 'temperatura': 36.34, 'vibracao': 5.63, 'energia': 277.57}
+producer-3  | 2026-09-25T22:29:54.618183427Z Sensor iniciado: sensor-b163150026b1
+producer-3  | 2026-09-25T22:29:54.618239867Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:29:54.618009', 'temperatura': 63.88, 'vibracao': 5.78, 'energia': 255.66}
+producer-3  | 2026-09-25T22:29:54.619732404Z %3|1790375394.619|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 1ms in state CONNECT)
+producer-3  | 2026-09-25T22:29:55.618858213Z %3|1790375395.618|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 0ms in state CONNECT)
+producer-3  | 2026-09-25T22:29:56.619377336Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:29:56.618459', 'temperatura': 87.41, 'vibracao': 3.68, 'energia': 375.57}
+producer-3  | 2026-09-25T22:29:56.621763691Z %3|1790375396.621|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 2ms in state CONNECT)
+producer-3  | 2026-09-25T22:29:57.619166905Z %3|1790375397.618|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+producer-3  | 2026-09-25T22:29:58.619584968Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:29:58.619216', 'temperatura': 85.48, 'vibracao': 5.88, 'energia': 458.0}
+producer-3  | 2026-09-25T22:29:59.620371341Z %3|1790375399.620|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+producer-3  | 2026-09-25T22:30:00.619952650Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:00.619598', 'temperatura': 95.35, 'vibracao': 4.5, 'energia': 422.35}
+producer-3  | 2026-09-25T22:30:02.620658925Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:02.619917', 'temperatura': 77.22, 'vibracao': 9.53, 'energia': 146.42}
+producer-3  | 2026-09-25T22:30:02.621346337Z %3|1790375402.620|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+producer-3  | 2026-09-25T22:30:04.623556215Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:04.620780', 'temperatura': 34.33, 'vibracao': 0.8, 'energia': 259.8}
+producer-3  | 2026-09-25T22:30:06.622420430Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:06.621752', 'temperatura': 78.16, 'vibracao': 9.19, 'energia': 238.29}
+producer-3  | 2026-09-25T22:30:06.622451398Z Mensagem enviada para partição 4 no offset 0
+producer-3  | 2026-09-25T22:30:06.622453456Z Mensagem enviada para partição 4 no offset 1
+producer-3  | 2026-09-25T22:30:06.622454538Z Mensagem enviada para partição 4 no offset 2
+producer-3  | 2026-09-25T22:30:06.622455458Z Mensagem enviada para partição 3 no offset 0
+producer-3  | 2026-09-25T22:30:06.622456351Z Mensagem enviada para partição 2 no offset 0
+producer-3  | 2026-09-25T22:30:06.622457217Z Mensagem enviada para partição 5 no offset 0
+producer-3  | 2026-09-25T22:30:08.622807103Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:08.622483', 'temperatura': 24.78, 'vibracao': 0.41, 'energia': 449.58}
+producer-3  | 2026-09-25T22:30:08.622854619Z Mensagem enviada para partição 1 no offset 0
+producer-3  | 2026-09-25T22:30:10.623178937Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:10.622854', 'temperatura': 93.22, 'vibracao': 7.77, 'energia': 110.42}
+producer-3  | 2026-09-25T22:30:10.623221910Z Mensagem enviada para partição 2 no offset 2
+producer-3  | 2026-09-25T22:30:12.623755439Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:12.623153', 'temperatura': 97.97, 'vibracao': 1.03, 'energia': 366.42}
+producer-3  | 2026-09-25T22:30:12.623800586Z Mensagem enviada para partição 1 no offset 1
+producer-3  | 2026-09-25T22:30:14.624082079Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:14.623723', 'temperatura': 92.68, 'vibracao': 9.85, 'energia': 280.48}
+producer-3  | 2026-09-25T22:30:14.624110439Z Mensagem enviada para partição 1 no offset 3
+producer-3  | 2026-09-25T22:30:16.619327996Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:16.618836', 'temperatura': 37.74, 'vibracao': 1.66, 'energia': 385.11}
+producer-2  | 2026-09-25T22:29:53.804442538Z Sensor iniciado: sensor-b608cc4773ef
+producer-1  | 2026-09-25T22:31:09.965938190Z Mensagem enviada para partição 3 no offset 16
+producer-3  | 2026-09-25T22:30:16.619395711Z Mensagem enviada para partição 3 no offset 2
+producer-3  | 2026-09-25T22:30:18.619641573Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:18.619351', 'temperatura': 20.36, 'vibracao': 1.37, 'energia': 445.14}
+producer-3  | 2026-09-25T22:30:18.619668445Z Mensagem enviada para partição 1 no offset 4
+producer-3  | 2026-09-25T22:30:20.620077937Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:20.619712', 'temperatura': 80.92, 'vibracao': 1.68, 'energia': 421.92}
+producer-3  | 2026-09-25T22:30:20.620112406Z Mensagem enviada para partição 2 no offset 7
+producer-3  | 2026-09-25T22:30:22.620425554Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:22.620047', 'temperatura': 40.65, 'vibracao': 9.95, 'energia': 442.82}
+producer-3  | 2026-09-25T22:30:22.620467449Z Mensagem enviada para partição 4 no offset 6
+producer-3  | 2026-09-25T22:30:24.620751616Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:24.620314', 'temperatura': 20.74, 'vibracao': 7.37, 'energia': 246.2}
+producer-3  | 2026-09-25T22:30:24.620784927Z Mensagem enviada para partição 2 no offset 9
+producer-3  | 2026-09-25T22:30:26.621093891Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:26.620756', 'temperatura': 46.55, 'vibracao': 7.83, 'energia': 426.56}
+producer-3  | 2026-09-25T22:30:26.621118621Z Mensagem enviada para partição 4 no offset 8
+producer-3  | 2026-09-25T22:30:28.621708121Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:28.621222', 'temperatura': 38.84, 'vibracao': 8.46, 'energia': 440.78}
+producer-3  | 2026-09-25T22:30:28.621751705Z Mensagem enviada para partição 0 no offset 15
+producer-3  | 2026-09-25T22:30:30.622576272Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:30.621813', 'temperatura': 54.13, 'vibracao': 5.36, 'energia': 113.75}
+producer-3  | 2026-09-25T22:30:30.622716610Z Mensagem enviada para partição 1 no offset 7
+producer-3  | 2026-09-25T22:30:32.623085176Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:32.622696', 'temperatura': 84.57, 'vibracao': 9.79, 'energia': 144.62}
+producer-3  | 2026-09-25T22:30:32.623120569Z Mensagem enviada para partição 5 no offset 5
+producer-3  | 2026-09-25T22:30:34.623586605Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:34.623141', 'temperatura': 44.9, 'vibracao': 9.0, 'energia': 383.28}
+producer-3  | 2026-09-25T22:30:34.623629619Z Mensagem enviada para partição 5 no offset 6
+producer-3  | 2026-09-25T22:30:36.623948465Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:36.623572', 'temperatura': 27.09, 'vibracao': 6.82, 'energia': 427.21}
+producer-3  | 2026-09-25T22:30:36.623986073Z Mensagem enviada para partição 2 no offset 11
+producer-3  | 2026-09-25T22:30:38.624550835Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:38.623961', 'temperatura': 24.42, 'vibracao': 2.08, 'energia': 286.27}
+producer-3  | 2026-09-25T22:30:38.624601094Z Mensagem enviada para partição 1 no offset 10
+producer-3  | 2026-09-25T22:30:40.625549599Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:40.624629', 'temperatura': 54.23, 'vibracao': 3.75, 'energia': 309.94}
+producer-3  | 2026-09-25T22:30:40.625749185Z Mensagem enviada para partição 2 no offset 12
+producer-3  | 2026-09-25T22:30:42.625924852Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:42.625342', 'temperatura': 89.05, 'vibracao': 5.14, 'energia': 444.07}
+producer-3  | 2026-09-25T22:30:42.625967625Z Mensagem enviada para partição 5 no offset 7
+producer-3  | 2026-09-25T22:30:44.626413204Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:44.625942', 'temperatura': 79.85, 'vibracao': 9.73, 'energia': 168.04}
+producer-3  | 2026-09-25T22:30:44.626456616Z Mensagem enviada para partição 2 no offset 14
+producer-3  | 2026-09-25T22:30:46.621811198Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:46.621380', 'temperatura': 82.84, 'vibracao': 0.39, 'energia': 336.21}
+producer-3  | 2026-09-25T22:30:46.621850617Z Mensagem enviada para partição 1 no offset 12
+producer-3  | 2026-09-25T22:30:48.622231946Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:48.621790', 'temperatura': 26.19, 'vibracao': 5.97, 'energia': 265.87}
+producer-3  | 2026-09-25T22:30:48.622265337Z Mensagem enviada para partição 2 no offset 15
+producer-3  | 2026-09-25T22:30:50.622893490Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:50.622308', 'temperatura': 41.13, 'vibracao': 0.09, 'energia': 235.06}
+producer-3  | 2026-09-25T22:30:50.622938769Z Mensagem enviada para partição 0 no offset 21
+producer-3  | 2026-09-25T22:30:52.623220157Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:52.622882', 'temperatura': 24.41, 'vibracao': 3.87, 'energia': 316.8}
+producer-3  | 2026-09-25T22:30:52.623254434Z Mensagem enviada para partição 4 no offset 13
+producer-2  | 2026-09-25T22:29:53.804495938Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:29:53.804230', 'temperatura': 68.92, 'vibracao': 4.25, 'energia': 310.91}
+producer-2  | 2026-09-25T22:29:53.807913664Z %3|1790375393.807|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 3ms in state CONNECT)
+producer-2  | 2026-09-25T22:29:54.804959502Z %3|1790375394.804|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT)
+producer-2  | 2026-09-25T22:29:55.804060374Z %3|1790375395.803|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT)
+producer-2  | 2026-09-25T22:29:55.804667683Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:29:55.804452', 'temperatura': 55.35, 'vibracao': 2.95, 'energia': 487.48}
+producer-2  | 2026-09-25T22:29:56.803870966Z %3|1790375396.803|FAIL|rdkafka#producer-1| [thrd:kafka1:9092/bootstrap]: kafka1:9092/bootstrap: Connect to ipv4#172.18.0.4:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+producer-2  | 2026-09-25T22:29:57.805424201Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:29:57.804706', 'temperatura': 98.66, 'vibracao': 7.25, 'energia': 456.0}
+producer-2  | 2026-09-25T22:29:58.804542511Z %3|1790375398.804|FAIL|rdkafka#producer-1| [thrd:kafka3:9092/bootstrap]: kafka3:9092/bootstrap: Connect to ipv4#172.18.0.3:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)
+producer-2  | 2026-09-25T22:29:59.805454360Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:29:59.805174', 'temperatura': 85.67, 'vibracao': 0.44, 'energia': 128.69}
+producer-2  | 2026-09-25T22:30:01.807608678Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:01.806558', 'temperatura': 81.24, 'vibracao': 5.24, 'energia': 477.18}
+producer-2  | 2026-09-25T22:30:02.830422762Z %3|1790375402.830|FAIL|rdkafka#producer-1| [thrd:kafka2:9092/bootstrap]: kafka2:9092/bootstrap: Connect to ipv4#172.18.0.2:9092 failed: Connection refused (after 1ms in state CONNECT, 1 identical error(s) suppressed)
+producer-2  | 2026-09-25T22:30:03.807479087Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:03.807016', 'temperatura': 90.43, 'vibracao': 6.58, 'energia': 453.28}
+producer-2  | 2026-09-25T22:30:05.807965708Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:05.807468', 'temperatura': 97.73, 'vibracao': 0.46, 'energia': 251.48}
+producer-2  | 2026-09-25T22:30:05.808003850Z Mensagem enviada para partição 0 no offset 0
+producer-2  | 2026-09-25T22:30:05.808008045Z Mensagem enviada para partição 0 no offset 1
+producer-2  | 2026-09-25T22:30:05.808009132Z Mensagem enviada para partição 0 no offset 2
+producer-2  | 2026-09-25T22:30:05.808010094Z Mensagem enviada para partição 0 no offset 3
+producer-2  | 2026-09-25T22:30:05.808010947Z Mensagem enviada para partição 0 no offset 4
+producer-2  | 2026-09-25T22:30:05.808011817Z Mensagem enviada para partição 0 no offset 5
+producer-2  | 2026-09-25T22:30:07.808513773Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:07.808084', 'temperatura': 22.6, 'vibracao': 9.8, 'energia': 258.1}
+producer-2  | 2026-09-25T22:30:07.809050939Z Mensagem enviada para partição 2 no offset 1
+producer-2  | 2026-09-25T22:30:09.809325854Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:09.809025', 'temperatura': 38.02, 'vibracao': 5.09, 'energia': 194.91}
+producer-2  | 2026-09-25T22:30:09.809367708Z Mensagem enviada para partição 5 no offset 2
+producer-2  | 2026-09-25T22:30:11.809993074Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:11.809451', 'temperatura': 35.72, 'vibracao': 8.05, 'energia': 371.09}
+producer-2  | 2026-09-25T22:30:11.810046435Z Mensagem enviada para partição 2 no offset 3
+producer-2  | 2026-09-25T22:30:13.810598644Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:13.809995', 'temperatura': 23.52, 'vibracao': 5.12, 'energia': 434.64}
+producer-2  | 2026-09-25T22:30:13.810640762Z Mensagem enviada para partição 2 no offset 4
+producer-2  | 2026-09-25T22:30:15.811521397Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:15.810945', 'temperatura': 33.19, 'vibracao': 3.31, 'energia': 382.73}
+producer-2  | 2026-09-25T22:30:15.811557813Z Mensagem enviada para partição 4 no offset 4
+producer-2  | 2026-09-25T22:30:17.806564814Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:17.806213', 'temperatura': 56.9, 'vibracao': 5.08, 'energia': 465.81}
+producer-2  | 2026-09-25T22:30:17.806716649Z Mensagem enviada para partição 0 no offset 12
+producer-2  | 2026-09-25T22:30:19.807215871Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:19.806785', 'temperatura': 31.25, 'vibracao': 8.82, 'energia': 485.07}
+producer-2  | 2026-09-25T22:30:19.807260725Z Mensagem enviada para partição 2 no offset 5
+producer-2  | 2026-09-25T22:30:21.807610250Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:21.807238', 'temperatura': 31.24, 'vibracao': 9.53, 'energia': 109.52}
+producer-3  | 2026-09-25T22:30:54.623743465Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:54.623250', 'temperatura': 61.91, 'vibracao': 0.57, 'energia': 397.03}
+producer-1  | 2026-09-25T22:31:11.966211265Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:11.965876', 'temperatura': 38.63, 'vibracao': 4.99, 'energia': 111.16}
+producer-1  | 2026-09-25T22:31:11.966245387Z Mensagem enviada para partição 5 no offset 12
+producer-1  | 2026-09-25T22:31:13.966557575Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:13.966247', 'temperatura': 96.86, 'vibracao': 7.46, 'energia': 416.67}
+producer-1  | 2026-09-25T22:31:13.966597053Z Mensagem enviada para partição 5 no offset 14
+producer-1  | 2026-09-25T22:31:15.967094129Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:15.966601', 'temperatura': 84.57, 'vibracao': 8.55, 'energia': 150.58}
+producer-1  | 2026-09-25T22:31:15.967175275Z Mensagem enviada para partição 0 no offset 29
+producer-1  | 2026-09-25T22:31:17.961763956Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:17.961305', 'temperatura': 66.36, 'vibracao': 2.33, 'energia': 388.44}
+producer-1  | 2026-09-25T22:31:17.961803890Z Mensagem enviada para partição 3 no offset 17
+producer-1  | 2026-09-25T22:31:19.962653069Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:19.961811', 'temperatura': 45.85, 'vibracao': 2.98, 'energia': 211.29}
+producer-1  | 2026-09-25T22:31:19.962716629Z Mensagem enviada para partição 3 no offset 18
+producer-1  | 2026-09-25T22:31:21.962863620Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:21.962414', 'temperatura': 93.88, 'vibracao': 6.57, 'energia': 455.65}
+producer-1  | 2026-09-25T22:31:21.962929252Z Mensagem enviada para partição 3 no offset 19
+producer-1  | 2026-09-25T22:31:23.963273110Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:23.962917', 'temperatura': 80.6, 'vibracao': 7.43, 'energia': 390.16}
+producer-1  | 2026-09-25T22:31:23.963310595Z Mensagem enviada para partição 0 no offset 33
+producer-1  | 2026-09-25T22:31:25.963807337Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:25.963351', 'temperatura': 71.14, 'vibracao': 7.36, 'energia': 269.1}
+producer-1  | 2026-09-25T22:31:25.963853856Z Mensagem enviada para partição 5 no offset 15
+producer-1  | 2026-09-25T22:31:27.964082121Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:27.963869', 'temperatura': 57.08, 'vibracao': 9.63, 'energia': 259.69}
+producer-1  | 2026-09-25T22:31:27.964106169Z Mensagem enviada para partição 5 no offset 16
+producer-1  | 2026-09-25T22:31:29.965124408Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:29.964362', 'temperatura': 50.91, 'vibracao': 3.25, 'energia': 103.98}
+producer-1  | 2026-09-25T22:31:29.965203127Z Mensagem enviada para partição 0 no offset 34
+producer-1  | 2026-09-25T22:31:31.965501633Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:31.965128', 'temperatura': 65.63, 'vibracao': 8.7, 'energia': 422.25}
+producer-1  | 2026-09-25T22:31:31.965533368Z Mensagem enviada para partição 5 no offset 17
+producer-1  | 2026-09-25T22:31:33.965959049Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:33.965588', 'temperatura': 84.25, 'vibracao': 7.58, 'energia': 434.39}
+producer-1  | 2026-09-25T22:31:33.965995312Z Mensagem enviada para partição 3 no offset 24
+producer-1  | 2026-09-25T22:31:35.966395223Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:35.966073', 'temperatura': 55.15, 'vibracao': 6.38, 'energia': 352.14}
+producer-1  | 2026-09-25T22:31:35.966428410Z Mensagem enviada para partição 4 no offset 30
+producer-1  | 2026-09-25T22:31:37.966845579Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:37.966456', 'temperatura': 73.2, 'vibracao': 6.08, 'energia': 366.62}
+producer-1  | 2026-09-25T22:31:37.966889183Z Mensagem enviada para partição 3 no offset 25
+producer-1  | 2026-09-25T22:31:39.967292152Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:39.966944', 'temperatura': 75.08, 'vibracao': 1.82, 'energia': 365.73}
+producer-1  | 2026-09-25T22:31:39.967777879Z Mensagem enviada para partição 5 no offset 20
+producer-1  | 2026-09-25T22:31:41.968318976Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:41.967654', 'temperatura': 69.11, 'vibracao': 4.96, 'energia': 374.02}
+producer-1  | 2026-09-25T22:31:41.968381054Z Mensagem enviada para partição 3 no offset 27
+producer-1  | 2026-09-25T22:31:43.968674416Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:43.968308', 'temperatura': 43.91, 'vibracao': 3.4, 'energia': 185.79}
+producer-1  | 2026-09-25T22:31:43.968710654Z Mensagem enviada para partição 2 no offset 23
+producer-1  | 2026-09-25T22:31:45.969019446Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:45.968682', 'temperatura': 41.15, 'vibracao': 5.62, 'energia': 132.74}
+producer-2  | 2026-09-25T22:30:21.807749599Z Mensagem enviada para partição 0 no offset 14
+producer-3  | 2026-09-25T22:30:54.623796012Z Mensagem enviada para partição 3 no offset 11
+producer-1  | 2026-09-25T22:31:45.969071247Z Mensagem enviada para partição 5 no offset 22
+producer-2  | 2026-09-25T22:30:23.808291347Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:23.807746', 'temperatura': 56.28, 'vibracao': 4.32, 'energia': 175.5}
+producer-2  | 2026-09-25T22:30:23.808341977Z Mensagem enviada para partição 2 no offset 8
+producer-2  | 2026-09-25T22:30:25.808868258Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:25.808293', 'temperatura': 28.57, 'vibracao': 4.94, 'energia': 384.46}
+producer-2  | 2026-09-25T22:30:25.808914806Z Mensagem enviada para partição 3 no offset 3
+producer-2  | 2026-09-25T22:30:27.809072877Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:27.808706', 'temperatura': 38.06, 'vibracao': 2.83, 'energia': 481.77}
+producer-2  | 2026-09-25T22:30:27.809119815Z Mensagem enviada para partição 5 no offset 4
+producer-2  | 2026-09-25T22:30:29.810132284Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:29.809220', 'temperatura': 37.42, 'vibracao': 5.04, 'energia': 378.97}
+producer-2  | 2026-09-25T22:30:29.810514291Z Mensagem enviada para partição 1 no offset 6
+producer-2  | 2026-09-25T22:30:31.810776349Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:31.810477', 'temperatura': 41.72, 'vibracao': 5.74, 'energia': 291.55}
+producer-2  | 2026-09-25T22:30:31.810825171Z Mensagem enviada para partição 3 no offset 4
+producer-2  | 2026-09-25T22:30:33.811148416Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:33.810805', 'temperatura': 39.02, 'vibracao': 1.67, 'energia': 270.19}
+producer-2  | 2026-09-25T22:30:33.811187020Z Mensagem enviada para partição 0 no offset 17
+producer-2  | 2026-09-25T22:30:35.811793225Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:35.811201', 'temperatura': 56.5, 'vibracao': 9.08, 'energia': 301.86}
+producer-2  | 2026-09-25T22:30:35.811840586Z Mensagem enviada para partição 3 no offset 5
+producer-2  | 2026-09-25T22:30:37.812077259Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:37.811745', 'temperatura': 48.99, 'vibracao': 2.93, 'energia': 141.32}
+producer-2  | 2026-09-25T22:30:37.812112803Z Mensagem enviada para partição 3 no offset 6
+producer-2  | 2026-09-25T22:30:39.812624077Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:39.812129', 'temperatura': 52.67, 'vibracao': 4.94, 'energia': 138.15}
+producer-2  | 2026-09-25T22:30:39.812673434Z Mensagem enviada para partição 3 no offset 7
+producer-2  | 2026-09-25T22:30:41.813031784Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:41.812570', 'temperatura': 33.4, 'vibracao': 9.02, 'energia': 498.54}
+producer-2  | 2026-09-25T22:30:41.813063809Z Mensagem enviada para partição 3 no offset 8
+producer-2  | 2026-09-25T22:30:43.813517420Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:43.812961', 'temperatura': 71.97, 'vibracao': 2.87, 'energia': 130.43}
+producer-2  | 2026-09-25T22:30:43.813552172Z Mensagem enviada para partição 0 no offset 19
+producer-2  | 2026-09-25T22:30:45.813572546Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:45.813319', 'temperatura': 40.15, 'vibracao': 7.24, 'energia': 446.46}
+producer-2  | 2026-09-25T22:30:45.813665022Z Mensagem enviada para partição 3 no offset 10
+producer-2  | 2026-09-25T22:30:47.809166467Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:47.808680', 'temperatura': 49.06, 'vibracao': 4.34, 'energia': 361.76}
+producer-2  | 2026-09-25T22:30:47.809214912Z Mensagem enviada para partição 5 no offset 8
+producer-2  | 2026-09-25T22:30:49.809545717Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:49.809130', 'temperatura': 67.17, 'vibracao': 0.96, 'energia': 243.8}
+producer-3  | 2026-09-25T22:30:56.624015917Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:56.623664', 'temperatura': 98.42, 'vibracao': 6.37, 'energia': 444.43}
+producer-3  | 2026-09-25T22:30:56.624048071Z Mensagem enviada para partição 4 no offset 16
+producer-3  | 2026-09-25T22:30:58.624678959Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:30:58.624078', 'temperatura': 63.25, 'vibracao': 4.56, 'energia': 245.61}
+producer-3  | 2026-09-25T22:30:58.624869339Z Mensagem enviada para partição 0 no offset 23
+producer-3  | 2026-09-25T22:31:00.625378767Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:00.624839', 'temperatura': 80.95, 'vibracao': 1.22, 'energia': 438.52}
+producer-3  | 2026-09-25T22:31:00.625428563Z Mensagem enviada para partição 3 no offset 13
+producer-3  | 2026-09-25T22:31:02.625818335Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:02.625328', 'temperatura': 92.11, 'vibracao': 5.95, 'energia': 396.73}
+producer-3  | 2026-09-25T22:31:02.625856969Z Mensagem enviada para partição 0 no offset 25
+producer-3  | 2026-09-25T22:31:04.625995270Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:04.625774', 'temperatura': 30.07, 'vibracao': 1.49, 'energia': 490.74}
+producer-3  | 2026-09-25T22:31:04.626020089Z Mensagem enviada para partição 4 no offset 18
+producer-3  | 2026-09-25T22:31:06.626653375Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:06.626052', 'temperatura': 95.45, 'vibracao': 8.86, 'energia': 396.13}
+producer-3  | 2026-09-25T22:31:06.626781473Z Mensagem enviada para partição 0 no offset 27
+producer-3  | 2026-09-25T22:31:08.627374429Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:08.626614', 'temperatura': 86.44, 'vibracao': 3.07, 'energia': 126.45}
+producer-3  | 2026-09-25T22:31:08.627461155Z Mensagem enviada para partição 4 no offset 21
+producer-3  | 2026-09-25T22:31:10.627902846Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:10.627267', 'temperatura': 46.03, 'vibracao': 1.54, 'energia': 193.05}
+producer-3  | 2026-09-25T22:31:10.628013014Z Mensagem enviada para partição 2 no offset 17
+producer-3  | 2026-09-25T22:31:12.628126906Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:12.627690', 'temperatura': 77.61, 'vibracao': 1.17, 'energia': 288.03}
+producer-3  | 2026-09-25T22:31:12.628164170Z Mensagem enviada para partição 5 no offset 13
+producer-3  | 2026-09-25T22:31:14.628770631Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:14.628169', 'temperatura': 26.54, 'vibracao': 8.62, 'energia': 292.22}
+producer-3  | 2026-09-25T22:31:14.629123035Z Mensagem enviada para partição 4 no offset 23
+producer-3  | 2026-09-25T22:31:16.623650269Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:16.623231', 'temperatura': 61.97, 'vibracao': 6.87, 'energia': 482.11}
+producer-3  | 2026-09-25T22:31:16.623690367Z Mensagem enviada para partição 2 no offset 20
+producer-3  | 2026-09-25T22:31:18.624972394Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:18.623862', 'temperatura': 31.53, 'vibracao': 4.06, 'energia': 154.59}
+producer-3  | 2026-09-25T22:31:18.625044430Z Mensagem enviada para partição 0 no offset 30
+producer-3  | 2026-09-25T22:31:20.624969880Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:20.624635', 'temperatura': 33.9, 'vibracao': 8.1, 'energia': 253.87}
+producer-3  | 2026-09-25T22:31:20.625000927Z Mensagem enviada para partição 0 no offset 31
+producer-3  | 2026-09-25T22:31:22.625506094Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:22.624980', 'temperatura': 25.73, 'vibracao': 5.75, 'energia': 413.44}
+producer-3  | 2026-09-25T22:31:22.625547918Z Mensagem enviada para partição 3 no offset 20
+producer-3  | 2026-09-25T22:31:24.626033044Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:24.625395', 'temperatura': 45.92, 'vibracao': 4.56, 'energia': 445.3}
+producer-3  | 2026-09-25T22:31:24.626110977Z Mensagem enviada para partição 4 no offset 25
+producer-2  | 2026-09-25T22:30:49.809585878Z Mensagem enviada para partição 4 no offset 12
+producer-1  | 2026-09-25T22:31:47.964950395Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:47.964648', 'temperatura': 59.79, 'vibracao': 5.74, 'energia': 178.77}
+producer-1  | 2026-09-25T22:31:47.965049753Z Mensagem enviada para partição 5 no offset 23
+producer-1  | 2026-09-25T22:31:49.965475192Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:49.965096', 'temperatura': 76.31, 'vibracao': 5.74, 'energia': 107.23}
+producer-1  | 2026-09-25T22:31:49.965519371Z Mensagem enviada para partição 2 no offset 25
+producer-1  | 2026-09-25T22:31:51.966475415Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:51.965633', 'temperatura': 83.82, 'vibracao': 4.32, 'energia': 309.38}
+producer-1  | 2026-09-25T22:31:51.966561576Z Mensagem enviada para partição 5 no offset 24
+producer-1  | 2026-09-25T22:31:53.967019607Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:53.966317', 'temperatura': 87.08, 'vibracao': 3.1, 'energia': 201.48}
+producer-1  | 2026-09-25T22:31:53.967110731Z Mensagem enviada para partição 3 no offset 30
+producer-1  | 2026-09-25T22:31:55.967616806Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:55.966850', 'temperatura': 58.36, 'vibracao': 3.62, 'energia': 226.82}
+producer-1  | 2026-09-25T22:31:55.967681829Z Mensagem enviada para partição 3 no offset 31
+producer-1  | 2026-09-25T22:31:57.968476835Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:57.967530', 'temperatura': 60.88, 'vibracao': 3.42, 'energia': 158.11}
+producer-1  | 2026-09-25T22:31:57.968825992Z Mensagem enviada para partição 3 no offset 32
+producer-1  | 2026-09-25T22:31:59.969100102Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:31:59.968167', 'temperatura': 99.08, 'vibracao': 7.25, 'energia': 307.47}
+producer-1  | 2026-09-25T22:31:59.969178164Z Mensagem enviada para partição 4 no offset 37
+producer-1  | 2026-09-25T22:32:01.969358935Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:01.968774', 'temperatura': 42.18, 'vibracao': 3.42, 'energia': 304.04}
+producer-1  | 2026-09-25T22:32:01.969411922Z Mensagem enviada para partição 5 no offset 29
+producer-1  | 2026-09-25T22:32:03.969718419Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:03.969201', 'temperatura': 87.52, 'vibracao': 1.66, 'energia': 122.76}
+producer-1  | 2026-09-25T22:32:03.969773515Z Mensagem enviada para partição 4 no offset 39
+producer-1  | 2026-09-25T22:32:05.969852782Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:05.969523', 'temperatura': 71.6, 'vibracao': 3.51, 'energia': 272.26}
+producer-1  | 2026-09-25T22:32:05.969880787Z Mensagem enviada para partição 4 no offset 41
+producer-1  | 2026-09-25T22:32:07.970451911Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:07.969903', 'temperatura': 87.14, 'vibracao': 9.59, 'energia': 417.98}
+producer-1  | 2026-09-25T22:32:07.970491483Z Mensagem enviada para partição 2 no offset 27
+producer-1  | 2026-09-25T22:32:09.970789499Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:09.970372', 'temperatura': 32.89, 'vibracao': 2.02, 'energia': 291.11}
+producer-1  | 2026-09-25T22:32:09.970820621Z Mensagem enviada para partição 1 no offset 22
+producer-1  | 2026-09-25T22:32:11.971268270Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:11.970757', 'temperatura': 57.37, 'vibracao': 8.96, 'energia': 124.83}
+producer-1  | 2026-09-25T22:32:11.971317674Z Mensagem enviada para partição 2 no offset 30
+producer-1  | 2026-09-25T22:32:13.971448363Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:13.971160', 'temperatura': 20.18, 'vibracao': 2.7, 'energia': 322.76}
+producer-1  | 2026-09-25T22:32:13.971476776Z Mensagem enviada para partição 1 no offset 23
+producer-1  | 2026-09-25T22:32:15.971856478Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:15.971528', 'temperatura': 35.63, 'vibracao': 1.13, 'energia': 125.25}
+producer-1  | 2026-09-25T22:32:15.971890684Z Mensagem enviada para partição 4 no offset 44
+producer-1  | 2026-09-25T22:32:17.967867700Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:17.967250', 'temperatura': 32.6, 'vibracao': 7.42, 'energia': 247.27}
+producer-3  | 2026-09-25T22:31:26.626513366Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:26.625891', 'temperatura': 37.27, 'vibracao': 0.21, 'energia': 440.07}
+producer-2  | 2026-09-25T22:30:51.809954145Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:51.809626', 'temperatura': 30.5, 'vibracao': 1.24, 'energia': 277.56}
+producer-1  | 2026-09-25T22:32:17.968198701Z Mensagem enviada para partição 5 no offset 31
+producer-3  | 2026-09-25T22:31:26.626695708Z Mensagem enviada para partição 1 no offset 17
+producer-3  | 2026-09-25T22:31:28.626843516Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:28.626384', 'temperatura': 38.41, 'vibracao': 8.17, 'energia': 485.14}
+producer-3  | 2026-09-25T22:31:28.626885102Z Mensagem enviada para partição 3 no offset 21
+producer-3  | 2026-09-25T22:31:30.627131718Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:30.626789', 'temperatura': 34.0, 'vibracao': 5.28, 'energia': 119.26}
+producer-3  | 2026-09-25T22:31:30.627167512Z Mensagem enviada para partição 4 no offset 28
+producer-3  | 2026-09-25T22:31:32.627542252Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:32.627120', 'temperatura': 30.56, 'vibracao': 0.72, 'energia': 332.8}
+producer-3  | 2026-09-25T22:31:32.627581889Z Mensagem enviada para partição 3 no offset 23
+producer-3  | 2026-09-25T22:31:34.627909686Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:34.627573', 'temperatura': 87.27, 'vibracao': 1.44, 'energia': 236.61}
+producer-3  | 2026-09-25T22:31:34.627942731Z Mensagem enviada para partição 5 no offset 18
+producer-3  | 2026-09-25T22:31:36.628944473Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:36.628020', 'temperatura': 74.32, 'vibracao': 0.15, 'energia': 441.64}
+producer-3  | 2026-09-25T22:31:36.629011773Z Mensagem enviada para partição 2 no offset 22
+producer-3  | 2026-09-25T22:31:38.629109946Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:38.628629', 'temperatura': 88.18, 'vibracao': 9.35, 'energia': 366.49}
+producer-3  | 2026-09-25T22:31:38.629147453Z Mensagem enviada para partição 4 no offset 31
+producer-3  | 2026-09-25T22:31:40.629418155Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:40.628992', 'temperatura': 83.47, 'vibracao': 3.11, 'energia': 201.11}
+producer-3  | 2026-09-25T22:31:40.629460311Z Mensagem enviada para partição 4 no offset 32
+producer-3  | 2026-09-25T22:31:42.629599344Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:42.629326', 'temperatura': 75.83, 'vibracao': 9.66, 'energia': 235.61}
+producer-3  | 2026-09-25T22:31:42.629631653Z Mensagem enviada para partição 3 no offset 28
+producer-3  | 2026-09-25T22:31:44.630349239Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:44.629617', 'temperatura': 56.21, 'vibracao': 2.3, 'energia': 389.6}
+producer-3  | 2026-09-25T22:31:44.630438849Z Mensagem enviada para partição 0 no offset 37
+producer-3  | 2026-09-25T22:31:46.625986981Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:46.625558', 'temperatura': 91.81, 'vibracao': 9.37, 'energia': 138.31}
+producer-3  | 2026-09-25T22:31:46.626146545Z Mensagem enviada para partição 0 no offset 38
+producer-3  | 2026-09-25T22:31:48.627158633Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:48.626133', 'temperatura': 99.28, 'vibracao': 8.25, 'energia': 206.98}
+producer-1  | 2026-09-25T22:32:19.968505540Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:19.968048', 'temperatura': 54.31, 'vibracao': 8.48, 'energia': 418.11}
+producer-1  | 2026-09-25T22:32:19.968548910Z Mensagem enviada para partição 3 no offset 38
+producer-1  | 2026-09-25T22:32:21.969099194Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:21.968544', 'temperatura': 95.38, 'vibracao': 9.46, 'energia': 419.79}
+producer-1  | 2026-09-25T22:32:21.969142730Z Mensagem enviada para partição 0 no offset 42
+producer-1  | 2026-09-25T22:32:23.969347446Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:23.968945', 'temperatura': 96.19, 'vibracao': 7.87, 'energia': 297.64}
+producer-1  | 2026-09-25T22:32:23.969386829Z Mensagem enviada para partição 1 no offset 24
+producer-1  | 2026-09-25T22:32:25.969807538Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:25.969320', 'temperatura': 88.97, 'vibracao': 2.41, 'energia': 376.42}
+producer-1  | 2026-09-25T22:32:25.969850926Z Mensagem enviada para partição 3 no offset 39
+producer-1  | 2026-09-25T22:32:27.970292358Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:27.969741', 'temperatura': 92.14, 'vibracao': 8.24, 'energia': 297.52}
+producer-1  | 2026-09-25T22:32:27.970337558Z Mensagem enviada para partição 3 no offset 41
+producer-1  | 2026-09-25T22:32:29.970727507Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:29.970366', 'temperatura': 88.22, 'vibracao': 8.52, 'energia': 496.04}
+producer-1  | 2026-09-25T22:32:29.970763785Z Mensagem enviada para partição 4 no offset 49
+producer-1  | 2026-09-25T22:32:31.971079902Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:31.970755', 'temperatura': 38.22, 'vibracao': 0.52, 'energia': 458.49}
+producer-1  | 2026-09-25T22:32:31.971116790Z Mensagem enviada para partição 5 no offset 35
+producer-1  | 2026-09-25T22:32:33.971987718Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:33.971269', 'temperatura': 59.84, 'vibracao': 9.63, 'energia': 227.01}
+producer-1  | 2026-09-25T22:32:33.972047806Z Mensagem enviada para partição 0 no offset 46
+producer-1  | 2026-09-25T22:32:35.972572900Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:35.972176', 'temperatura': 95.84, 'vibracao': 5.41, 'energia': 262.16}
+producer-1  | 2026-09-25T22:32:35.972609339Z Mensagem enviada para partição 5 no offset 37
+producer-1  | 2026-09-25T22:32:37.973210328Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:37.972765', 'temperatura': 99.63, 'vibracao': 7.18, 'energia': 280.39}
+producer-2  | 2026-09-25T22:30:51.809986750Z Mensagem enviada para partição 5 no offset 9
+producer-3  | 2026-09-25T22:31:48.627271764Z Mensagem enviada para partição 0 no offset 39
+producer-3  | 2026-09-25T22:31:50.627117485Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:50.626682', 'temperatura': 89.66, 'vibracao': 1.52, 'energia': 402.02}
+producer-3  | 2026-09-25T22:31:50.627192216Z Mensagem enviada para partição 4 no offset 35
+producer-3  | 2026-09-25T22:31:52.628057081Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:52.627145', 'temperatura': 49.23, 'vibracao': 2.21, 'energia': 232.93}
+producer-3  | 2026-09-25T22:31:52.628287734Z Mensagem enviada para partição 2 no offset 26
+producer-3  | 2026-09-25T22:31:54.628090102Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:54.627717', 'temperatura': 70.18, 'vibracao': 9.05, 'energia': 381.91}
+producer-3  | 2026-09-25T22:31:54.628129612Z Mensagem enviada para partição 5 no offset 26
+producer-3  | 2026-09-25T22:31:56.628621231Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:56.628249', 'temperatura': 24.5, 'vibracao': 3.04, 'energia': 330.96}
+producer-3  | 2026-09-25T22:31:56.628672988Z Mensagem enviada para partição 0 no offset 40
+producer-3  | 2026-09-25T22:31:58.629001580Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:31:58.628686', 'temperatura': 39.29, 'vibracao': 8.55, 'energia': 413.91}
+producer-3  | 2026-09-25T22:31:58.629026907Z Mensagem enviada para partição 1 no offset 19
+producer-3  | 2026-09-25T22:32:00.629490219Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:00.628997', 'temperatura': 46.06, 'vibracao': 2.64, 'energia': 406.43}
+producer-3  | 2026-09-25T22:32:00.629531694Z Mensagem enviada para partição 5 no offset 28
+producer-3  | 2026-09-25T22:32:02.629877150Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:02.629396', 'temperatura': 30.1, 'vibracao': 6.23, 'energia': 381.29}
+producer-3  | 2026-09-25T22:32:02.629919151Z Mensagem enviada para partição 5 no offset 30
+producer-3  | 2026-09-25T22:32:04.630195797Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:04.629822', 'temperatura': 85.53, 'vibracao': 9.21, 'energia': 179.18}
+producer-3  | 2026-09-25T22:32:04.630225667Z Mensagem enviada para partição 0 no offset 41
+producer-3  | 2026-09-25T22:32:06.630626223Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:06.630139', 'temperatura': 32.93, 'vibracao': 8.85, 'energia': 222.5}
+producer-3  | 2026-09-25T22:32:06.630665502Z Mensagem enviada para partição 3 no offset 33
+producer-3  | 2026-09-25T22:32:08.631203212Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:08.630608', 'temperatura': 55.85, 'vibracao': 0.26, 'energia': 112.82}
+producer-3  | 2026-09-25T22:32:08.631247700Z Mensagem enviada para partição 3 no offset 34
+producer-3  | 2026-09-25T22:32:10.631640161Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:10.631082', 'temperatura': 55.39, 'vibracao': 9.59, 'energia': 434.07}
+producer-3  | 2026-09-25T22:32:10.631689524Z Mensagem enviada para partição 3 no offset 35
+producer-3  | 2026-09-25T22:32:12.632018786Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:12.631555', 'temperatura': 43.64, 'vibracao': 2.3, 'energia': 162.49}
+producer-3  | 2026-09-25T22:32:12.632063323Z Mensagem enviada para partição 3 no offset 36
+producer-3  | 2026-09-25T22:32:14.632261240Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:14.631974', 'temperatura': 55.46, 'vibracao': 8.22, 'energia': 116.31}
+producer-3  | 2026-09-25T22:32:14.632287992Z Mensagem enviada para partição 4 no offset 43
+producer-3  | 2026-09-25T22:32:16.628570630Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:16.627578', 'temperatura': 75.74, 'vibracao': 2.05, 'energia': 372.09}
+producer-2  | 2026-09-25T22:30:53.810155696Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:53.809947', 'temperatura': 75.46, 'vibracao': 4.56, 'energia': 248.44}
+producer-1  | 2026-09-25T22:32:37.973259180Z Mensagem enviada para partição 5 no offset 40
+producer-3  | 2026-09-25T22:32:16.628625099Z Mensagem enviada para partição 4 no offset 45
+producer-2  | 2026-09-25T22:30:53.810179671Z Mensagem enviada para partição 1 no offset 13
+producer-2  | 2026-09-25T22:30:55.810594384Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:55.810211', 'temperatura': 80.03, 'vibracao': 2.02, 'energia': 381.57}
+producer-2  | 2026-09-25T22:30:55.810639530Z Mensagem enviada para partição 5 no offset 10
+producer-2  | 2026-09-25T22:30:57.811096679Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:57.810622', 'temperatura': 81.05, 'vibracao': 9.76, 'energia': 385.47}
+producer-2  | 2026-09-25T22:30:57.811169535Z Mensagem enviada para partição 3 no offset 12
+producer-2  | 2026-09-25T22:30:59.811546853Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:30:59.811113', 'temperatura': 29.71, 'vibracao': 7.05, 'energia': 193.23}
+producer-2  | 2026-09-25T22:30:59.811595180Z Mensagem enviada para partição 0 no offset 24
+producer-2  | 2026-09-25T22:31:01.812605746Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:01.811614', 'temperatura': 77.51, 'vibracao': 2.34, 'energia': 279.39}
+producer-2  | 2026-09-25T22:31:01.812670517Z Mensagem enviada para partição 1 no offset 14
+producer-2  | 2026-09-25T22:31:03.812436955Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:03.812095', 'temperatura': 71.36, 'vibracao': 6.31, 'energia': 172.64}
+producer-2  | 2026-09-25T22:31:03.812468905Z Mensagem enviada para partição 3 no offset 14
+producer-2  | 2026-09-25T22:31:05.813505311Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:05.812533', 'temperatura': 66.79, 'vibracao': 8.11, 'energia': 312.73}
+producer-2  | 2026-09-25T22:31:05.813563020Z Mensagem enviada para partição 1 no offset 15
+producer-2  | 2026-09-25T22:31:07.813373040Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:07.813026', 'temperatura': 97.11, 'vibracao': 3.06, 'energia': 248.92}
+producer-2  | 2026-09-25T22:31:07.813406526Z Mensagem enviada para partição 4 no offset 19
+producer-2  | 2026-09-25T22:31:09.813877336Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:09.813414', 'temperatura': 31.57, 'vibracao': 1.99, 'energia': 392.3}
+producer-2  | 2026-09-25T22:31:09.813929090Z Mensagem enviada para partição 0 no offset 28
+producer-2  | 2026-09-25T22:31:11.814395353Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:11.813870', 'temperatura': 84.93, 'vibracao': 4.62, 'energia': 408.77}
+producer-2  | 2026-09-25T22:31:11.814432649Z Mensagem enviada para partição 4 no offset 22
+producer-2  | 2026-09-25T22:31:13.814639304Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:13.814179', 'temperatura': 58.64, 'vibracao': 9.58, 'energia': 351.83}
+producer-2  | 2026-09-25T22:31:13.814692365Z Mensagem enviada para partição 2 no offset 18
+producer-2  | 2026-09-25T22:31:15.815091578Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:15.814557', 'temperatura': 20.89, 'vibracao': 7.48, 'energia': 159.65}
+producer-2  | 2026-09-25T22:31:15.815139200Z Mensagem enviada para partição 2 no offset 19
+producer-2  | 2026-09-25T22:31:17.809772384Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:17.809229', 'temperatura': 76.24, 'vibracao': 6.15, 'energia': 480.44}
+producer-2  | 2026-09-25T22:31:17.809809104Z Mensagem enviada para partição 4 no offset 24
+producer-2  | 2026-09-25T22:31:19.809923515Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:19.809627', 'temperatura': 36.76, 'vibracao': 3.01, 'energia': 231.11}
+producer-2  | 2026-09-25T22:31:19.809954851Z Mensagem enviada para partição 1 no offset 16
+producer-2  | 2026-09-25T22:31:21.810791744Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:21.810118', 'temperatura': 99.6, 'vibracao': 1.42, 'energia': 362.65}
+producer-2  | 2026-09-25T22:31:21.810865082Z Mensagem enviada para partição 0 no offset 32
+producer-2  | 2026-09-25T22:31:23.811575224Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:23.810801', 'temperatura': 23.32, 'vibracao': 1.69, 'energia': 395.72}
+producer-2  | 2026-09-25T22:31:23.811808202Z Mensagem enviada para partição 2 no offset 21
+producer-2  | 2026-09-25T22:31:25.811668309Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:25.811287', 'temperatura': 63.28, 'vibracao': 8.93, 'energia': 370.03}
+producer-2  | 2026-09-25T22:31:25.811709101Z Mensagem enviada para partição 4 no offset 26
+producer-2  | 2026-09-25T22:31:27.812128865Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:27.811729', 'temperatura': 38.82, 'vibracao': 8.3, 'energia': 195.07}
+producer-2  | 2026-09-25T22:31:27.812164104Z Mensagem enviada para partição 4 no offset 27
+producer-2  | 2026-09-25T22:31:29.812657855Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:29.812123', 'temperatura': 96.89, 'vibracao': 9.86, 'energia': 231.65}
+producer-2  | 2026-09-25T22:31:29.812796763Z Mensagem enviada para partição 3 no offset 22
+producer-2  | 2026-09-25T22:31:31.812760831Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:31.812479', 'temperatura': 35.74, 'vibracao': 1.98, 'energia': 462.29}
+producer-2  | 2026-09-25T22:31:31.812797483Z Mensagem enviada para partição 0 no offset 35
+producer-2  | 2026-09-25T22:31:33.813277888Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:33.812809', 'temperatura': 60.03, 'vibracao': 8.2, 'energia': 407.98}
+producer-2  | 2026-09-25T22:31:33.813310987Z Mensagem enviada para partição 1 no offset 18
+producer-2  | 2026-09-25T22:31:35.813549835Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:35.813148', 'temperatura': 50.14, 'vibracao': 8.82, 'energia': 143.88}
+producer-2  | 2026-09-25T22:31:35.813584971Z Mensagem enviada para partição 4 no offset 29
+producer-2  | 2026-09-25T22:31:37.814453459Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:37.813657', 'temperatura': 35.71, 'vibracao': 7.97, 'energia': 220.92}
+producer-2  | 2026-09-25T22:31:37.814558258Z Mensagem enviada para partição 5 no offset 19
+producer-1  | 2026-09-25T22:32:39.973763243Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:39.973243', 'temperatura': 88.95, 'vibracao': 6.8, 'energia': 191.26}
+producer-1  | 2026-09-25T22:32:39.973816977Z Mensagem enviada para partição 3 no offset 42
+producer-1  | 2026-09-25T22:32:41.974633695Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:41.973832', 'temperatura': 86.94, 'vibracao': 4.76, 'energia': 491.11}
+producer-1  | 2026-09-25T22:32:41.974679480Z Mensagem enviada para partição 4 no offset 50
+producer-1  | 2026-09-25T22:32:43.974981174Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:43.974583', 'temperatura': 50.95, 'vibracao': 1.7, 'energia': 200.07}
+producer-1  | 2026-09-25T22:32:43.975019303Z Mensagem enviada para partição 1 no offset 31
+producer-1  | 2026-09-25T22:32:45.975393088Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:45.975058', 'temperatura': 60.12, 'vibracao': 1.08, 'energia': 371.54}
+producer-1  | 2026-09-25T22:32:45.975714681Z Mensagem enviada para partição 3 no offset 43
+producer-1  | 2026-09-25T22:32:47.971221613Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:47.970833', 'temperatura': 38.52, 'vibracao': 3.32, 'energia': 359.16}
+producer-1  | 2026-09-25T22:32:47.971341586Z Mensagem enviada para partição 2 no offset 38
+producer-1  | 2026-09-25T22:32:49.971779286Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:49.971413', 'temperatura': 38.85, 'vibracao': 6.9, 'energia': 433.13}
+producer-1  | 2026-09-25T22:32:49.971815135Z Mensagem enviada para partição 1 no offset 33
+producer-1  | 2026-09-25T22:32:51.972150969Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:51.971788', 'temperatura': 43.56, 'vibracao': 7.1, 'energia': 333.84}
+producer-1  | 2026-09-25T22:32:51.972191754Z Mensagem enviada para partição 0 no offset 48
+producer-1  | 2026-09-25T22:32:53.972363296Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:53.972089', 'temperatura': 20.69, 'vibracao': 7.6, 'energia': 436.64}
+producer-1  | 2026-09-25T22:32:53.972560092Z Mensagem enviada para partição 3 no offset 45
+producer-1  | 2026-09-25T22:32:55.972852490Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:55.972528', 'temperatura': 28.24, 'vibracao': 0.72, 'energia': 178.77}
+producer-1  | 2026-09-25T22:32:55.972991950Z Mensagem enviada para partição 0 no offset 51
+producer-1  | 2026-09-25T22:32:57.973687076Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:57.973039', 'temperatura': 76.44, 'vibracao': 1.26, 'energia': 353.42}
+producer-1  | 2026-09-25T22:32:57.973725774Z Mensagem enviada para partição 0 no offset 53
+producer-1  | 2026-09-25T22:32:59.973746614Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:32:59.973480', 'temperatura': 45.94, 'vibracao': 1.94, 'energia': 485.66}
+producer-1  | 2026-09-25T22:32:59.973787672Z Mensagem enviada para partição 4 no offset 55
+producer-1  | 2026-09-25T22:33:01.974194077Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:01.973808', 'temperatura': 27.86, 'vibracao': 8.25, 'energia': 376.8}
+producer-1  | 2026-09-25T22:33:01.974240640Z Mensagem enviada para partição 5 no offset 47
+producer-1  | 2026-09-25T22:33:03.975070473Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:03.974329', 'temperatura': 92.07, 'vibracao': 8.03, 'energia': 288.75}
+producer-1  | 2026-09-25T22:33:03.975106324Z Mensagem enviada para partição 5 no offset 49
+producer-1  | 2026-09-25T22:33:05.975598094Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:05.974997', 'temperatura': 26.92, 'vibracao': 3.35, 'energia': 378.33}
+producer-1  | 2026-09-25T22:33:05.975663304Z Mensagem enviada para partição 5 no offset 50
+producer-1  | 2026-09-25T22:33:07.975993839Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:07.975578', 'temperatura': 75.63, 'vibracao': 9.42, 'energia': 480.2}
+producer-1  | 2026-09-25T22:33:07.976423387Z Mensagem enviada para partição 4 no offset 56
+producer-2  | 2026-09-25T22:31:39.814875369Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:39.814430', 'temperatura': 28.34, 'vibracao': 5.44, 'energia': 425.53}
+producer-3  | 2026-09-25T22:32:18.628622816Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:18.628093', 'temperatura': 88.63, 'vibracao': 9.82, 'energia': 428.34}
+producer-3  | 2026-09-25T22:32:18.628681428Z Mensagem enviada para partição 2 no offset 33
+producer-3  | 2026-09-25T22:32:20.629075374Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:20.628555', 'temperatura': 71.5, 'vibracao': 3.5, 'energia': 310.42}
+producer-3  | 2026-09-25T22:32:20.629118524Z Mensagem enviada para partição 5 no offset 32
+producer-3  | 2026-09-25T22:32:22.629185341Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:22.628959', 'temperatura': 23.97, 'vibracao': 3.17, 'energia': 384.9}
+producer-3  | 2026-09-25T22:32:22.629212096Z Mensagem enviada para partição 4 no offset 47
+producer-3  | 2026-09-25T22:32:24.629780996Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:24.629344', 'temperatura': 56.1, 'vibracao': 5.65, 'energia': 394.35}
+producer-3  | 2026-09-25T22:32:24.629825270Z Mensagem enviada para partição 5 no offset 33
+producer-3  | 2026-09-25T22:32:26.630200933Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:26.629768', 'temperatura': 40.81, 'vibracao': 4.92, 'energia': 121.73}
+producer-3  | 2026-09-25T22:32:26.630243629Z Mensagem enviada para partição 3 no offset 40
+producer-3  | 2026-09-25T22:32:28.630678863Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:28.630222', 'temperatura': 71.27, 'vibracao': 5.57, 'energia': 115.4}
+producer-3  | 2026-09-25T22:32:28.630722273Z Mensagem enviada para partição 1 no offset 26
+producer-3  | 2026-09-25T22:32:30.631173968Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:30.630659', 'temperatura': 47.63, 'vibracao': 6.36, 'energia': 316.2}
+producer-3  | 2026-09-25T22:32:30.631221760Z Mensagem enviada para partição 1 no offset 27
+producer-3  | 2026-09-25T22:32:32.631689471Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:32.631135', 'temperatura': 72.6, 'vibracao': 0.97, 'energia': 452.46}
+producer-3  | 2026-09-25T22:32:32.631746410Z Mensagem enviada para partição 0 no offset 45
+producer-3  | 2026-09-25T22:32:34.632701624Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:34.631654', 'temperatura': 82.15, 'vibracao': 9.77, 'energia': 447.95}
+producer-3  | 2026-09-25T22:32:34.632748030Z Mensagem enviada para partição 5 no offset 36
+producer-3  | 2026-09-25T22:32:36.633460341Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:36.632784', 'temperatura': 41.65, 'vibracao': 9.74, 'energia': 285.56}
+producer-3  | 2026-09-25T22:32:36.633513490Z Mensagem enviada para partição 5 no offset 38
+producer-3  | 2026-09-25T22:32:38.634071985Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:38.633469', 'temperatura': 91.6, 'vibracao': 8.89, 'energia': 427.54}
+producer-3  | 2026-09-25T22:32:38.634119729Z Mensagem enviada para partição 1 no offset 29
+producer-3  | 2026-09-25T22:32:40.634394222Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:40.633929', 'temperatura': 32.52, 'vibracao': 8.4, 'energia': 251.01}
+producer-3  | 2026-09-25T22:32:40.634439670Z Mensagem enviada para partição 1 no offset 30
+producer-3  | 2026-09-25T22:32:42.634915691Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:42.634357', 'temperatura': 80.3, 'vibracao': 0.17, 'energia': 268.58}
+producer-3  | 2026-09-25T22:32:42.634946308Z Mensagem enviada para partição 5 no offset 41
+producer-3  | 2026-09-25T22:32:44.635128393Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:44.634873', 'temperatura': 55.5, 'vibracao': 6.66, 'energia': 385.87}
+producer-3  | 2026-09-25T22:32:44.635154344Z Mensagem enviada para partição 4 no offset 52
+producer-3  | 2026-09-25T22:32:46.630534338Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:46.630202', 'temperatura': 64.92, 'vibracao': 6.27, 'energia': 213.21}
+producer-3  | 2026-09-25T22:32:46.630574450Z Mensagem enviada para partição 5 no offset 42
+producer-3  | 2026-09-25T22:32:48.631310593Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:48.630529', 'temperatura': 75.7, 'vibracao': 5.34, 'energia': 497.77}
+producer-3  | 2026-09-25T22:32:48.631433263Z Mensagem enviada para partição 5 no offset 43
+producer-3  | 2026-09-25T22:32:50.631701667Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:50.631075', 'temperatura': 98.29, 'vibracao': 9.32, 'energia': 144.8}
+producer-1  | 2026-09-25T22:33:09.976532218Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:09.976060', 'temperatura': 68.58, 'vibracao': 1.78, 'energia': 257.0}
+producer-1  | 2026-09-25T22:33:09.976563829Z Mensagem enviada para partição 3 no offset 48
+producer-1  | 2026-09-25T22:33:11.976908706Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:11.976500', 'temperatura': 42.13, 'vibracao': 5.48, 'energia': 393.48}
+producer-1  | 2026-09-25T22:33:11.976985964Z Mensagem enviada para partição 3 no offset 49
+producer-1  | 2026-09-25T22:33:13.977623745Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:13.976908', 'temperatura': 52.25, 'vibracao': 6.79, 'energia': 217.92}
+producer-1  | 2026-09-25T22:33:13.977675671Z Mensagem enviada para partição 5 no offset 52
+producer-1  | 2026-09-25T22:33:15.977788723Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:15.977562', 'temperatura': 70.82, 'vibracao': 3.28, 'energia': 247.06}
+producer-1  | 2026-09-25T22:33:15.977814908Z Mensagem enviada para partição 5 no offset 53
+producer-1  | 2026-09-25T22:33:17.973485883Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:17.972962', 'temperatura': 21.38, 'vibracao': 4.21, 'energia': 391.53}
+producer-1  | 2026-09-25T22:33:17.973527647Z Mensagem enviada para partição 2 no offset 39
+producer-1  | 2026-09-25T22:33:19.973951743Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:19.973491', 'temperatura': 43.27, 'vibracao': 7.63, 'energia': 451.03}
+producer-1  | 2026-09-25T22:33:19.974006208Z Mensagem enviada para partição 1 no offset 40
+producer-1  | 2026-09-25T22:33:21.974494278Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:21.973891', 'temperatura': 91.99, 'vibracao': 7.64, 'energia': 273.34}
+producer-1  | 2026-09-25T22:33:21.974567963Z Mensagem enviada para partição 1 no offset 41
+producer-1  | 2026-09-25T22:33:23.974844150Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:23.974436', 'temperatura': 29.18, 'vibracao': 8.98, 'energia': 343.22}
+producer-1  | 2026-09-25T22:33:23.974952056Z Mensagem enviada para partição 3 no offset 53
+producer-1  | 2026-09-25T22:33:25.976000059Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:25.975217', 'temperatura': 94.79, 'vibracao': 6.44, 'energia': 413.02}
+producer-1  | 2026-09-25T22:33:25.976058255Z Mensagem enviada para partição 2 no offset 41
+producer-1  | 2026-09-25T22:33:27.976163331Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:27.975745', 'temperatura': 72.6, 'vibracao': 0.93, 'energia': 218.76}
+producer-1  | 2026-09-25T22:33:27.976203568Z Mensagem enviada para partição 2 no offset 42
+producer-1  | 2026-09-25T22:33:29.976835355Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:29.976249', 'temperatura': 58.89, 'vibracao': 7.2, 'energia': 494.59}
+producer-1  | 2026-09-25T22:33:29.976880325Z Mensagem enviada para partição 0 no offset 63
+producer-1  | 2026-09-25T22:33:31.976934091Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:31.976685', 'temperatura': 79.54, 'vibracao': 4.76, 'energia': 303.42}
+producer-1  | 2026-09-25T22:33:31.976968263Z Mensagem enviada para partição 5 no offset 56
+producer-1  | 2026-09-25T22:33:33.977816444Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:33.977027', 'temperatura': 61.9, 'vibracao': 9.12, 'energia': 206.72}
+producer-1  | 2026-09-25T22:33:33.977893197Z Mensagem enviada para partição 5 no offset 57
+producer-1  | 2026-09-25T22:33:35.977989197Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:35.977623', 'temperatura': 84.52, 'vibracao': 3.05, 'energia': 273.29}
+producer-1  | 2026-09-25T22:33:35.978026784Z Mensagem enviada para partição 1 no offset 44
+producer-1  | 2026-09-25T22:33:37.978827623Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:37.978224', 'temperatura': 72.49, 'vibracao': 6.65, 'energia': 463.14}
+producer-1  | 2026-09-25T22:33:37.978901811Z Mensagem enviada para partição 3 no offset 56
+producer-1  | 2026-09-25T22:33:39.979248745Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:39.978822', 'temperatura': 51.19, 'vibracao': 2.06, 'energia': 447.24}
+producer-2  | 2026-09-25T22:31:39.814906998Z Mensagem enviada para partição 3 no offset 26
+producer-3  | 2026-09-25T22:32:50.631737257Z Mensagem enviada para partição 1 no offset 34
+producer-3  | 2026-09-25T22:32:52.632757297Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:52.631673', 'temperatura': 51.98, 'vibracao': 7.51, 'energia': 178.66}
+producer-3  | 2026-09-25T22:32:52.632821168Z Mensagem enviada para partição 0 no offset 49
+producer-3  | 2026-09-25T22:32:54.632927185Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:54.632347', 'temperatura': 65.97, 'vibracao': 9.82, 'energia': 122.17}
+producer-3  | 2026-09-25T22:32:54.633045327Z Mensagem enviada para partição 0 no offset 50
+producer-3  | 2026-09-25T22:32:56.632970792Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:56.632716', 'temperatura': 81.05, 'vibracao': 4.73, 'energia': 373.15}
+producer-3  | 2026-09-25T22:32:56.632999324Z Mensagem enviada para partição 0 no offset 52
+producer-3  | 2026-09-25T22:32:58.633477783Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:32:58.633038', 'temperatura': 95.6, 'vibracao': 8.39, 'energia': 437.25}
+producer-3  | 2026-09-25T22:32:58.633517770Z Mensagem enviada para partição 5 no offset 45
+producer-3  | 2026-09-25T22:33:00.634116492Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:00.633468', 'temperatura': 60.94, 'vibracao': 4.54, 'energia': 209.47}
+producer-3  | 2026-09-25T22:33:00.634201910Z Mensagem enviada para partição 0 no offset 54
+producer-3  | 2026-09-25T22:33:02.634521464Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:02.634093', 'temperatura': 76.88, 'vibracao': 0.23, 'energia': 270.54}
+producer-3  | 2026-09-25T22:33:02.634557784Z Mensagem enviada para partição 5 no offset 48
+producer-3  | 2026-09-25T22:33:04.634844623Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:04.634502', 'temperatura': 36.4, 'vibracao': 7.51, 'energia': 314.5}
+producer-3  | 2026-09-25T22:33:04.634869816Z Mensagem enviada para partição 1 no offset 36
+producer-3  | 2026-09-25T22:33:06.635312555Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:06.634875', 'temperatura': 53.09, 'vibracao': 4.28, 'energia': 325.67}
+producer-3  | 2026-09-25T22:33:06.635373057Z Mensagem enviada para partição 3 no offset 47
+producer-3  | 2026-09-25T22:33:08.635684878Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:08.635251', 'temperatura': 52.92, 'vibracao': 1.73, 'energia': 241.04}
+producer-3  | 2026-09-25T22:33:08.635719816Z Mensagem enviada para partição 5 no offset 51
+producer-3  | 2026-09-25T22:33:10.636505758Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:10.635660', 'temperatura': 50.63, 'vibracao': 1.63, 'energia': 401.35}
+producer-3  | 2026-09-25T22:33:10.636574147Z Mensagem enviada para partição 4 no offset 57
+producer-3  | 2026-09-25T22:33:12.636698857Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:12.636258', 'temperatura': 39.32, 'vibracao': 5.32, 'energia': 402.92}
+producer-3  | 2026-09-25T22:33:12.636727457Z Mensagem enviada para partição 4 no offset 59
+producer-3  | 2026-09-25T22:33:14.637115474Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:14.636753', 'temperatura': 36.19, 'vibracao': 2.04, 'energia': 200.83}
+producer-3  | 2026-09-25T22:33:14.637151782Z Mensagem enviada para partição 3 no offset 50
+producer-3  | 2026-09-25T22:33:16.632688341Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:16.632253', 'temperatura': 81.53, 'vibracao': 7.18, 'energia': 349.88}
+producer-3  | 2026-09-25T22:33:16.632724417Z Mensagem enviada para partição 5 no offset 54
+producer-3  | 2026-09-25T22:33:18.633269450Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:18.632712', 'temperatura': 34.72, 'vibracao': 0.52, 'energia': 372.95}
+producer-3  | 2026-09-25T22:33:18.633322770Z Mensagem enviada para partição 2 no offset 40
+producer-3  | 2026-09-25T22:33:20.633679441Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:20.633160', 'temperatura': 35.83, 'vibracao': 8.95, 'energia': 302.31}
+producer-2  | 2026-09-25T22:31:41.815335942Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:41.814846', 'temperatura': 29.88, 'vibracao': 1.15, 'energia': 105.61}
+producer-2  | 2026-09-25T22:31:41.815381702Z Mensagem enviada para partição 0 no offset 36
+producer-2  | 2026-09-25T22:31:43.816063811Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:43.815374', 'temperatura': 27.47, 'vibracao': 2.89, 'energia': 386.37}
+producer-2  | 2026-09-25T22:31:43.816174381Z Mensagem enviada para partição 5 no offset 21
+producer-2  | 2026-09-25T22:31:45.816629742Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:45.815974', 'temperatura': 52.51, 'vibracao': 7.77, 'energia': 137.83}
+producer-2  | 2026-09-25T22:31:45.816797183Z Mensagem enviada para partição 4 no offset 33
+producer-2  | 2026-09-25T22:31:47.812339315Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:47.811938', 'temperatura': 46.19, 'vibracao': 0.07, 'energia': 398.03}
+producer-2  | 2026-09-25T22:31:47.812526882Z Mensagem enviada para partição 4 no offset 34
+producer-2  | 2026-09-25T22:31:49.812579026Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:49.812297', 'temperatura': 50.32, 'vibracao': 7.07, 'energia': 391.6}
+producer-2  | 2026-09-25T22:31:49.812609081Z Mensagem enviada para partição 2 no offset 24
+producer-2  | 2026-09-25T22:31:51.813077401Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:51.812696', 'temperatura': 50.74, 'vibracao': 5.09, 'energia': 114.87}
+producer-2  | 2026-09-25T22:31:51.813146228Z Mensagem enviada para partição 3 no offset 29
+producer-2  | 2026-09-25T22:31:53.813470179Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:53.813103', 'temperatura': 86.27, 'vibracao': 6.72, 'energia': 239.04}
+producer-2  | 2026-09-25T22:31:53.813528523Z Mensagem enviada para partição 5 no offset 25
+producer-2  | 2026-09-25T22:31:55.815234091Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:55.813710', 'temperatura': 89.85, 'vibracao': 2.61, 'energia': 408.65}
+producer-2  | 2026-09-25T22:31:55.815491026Z Mensagem enviada para partição 4 no offset 36
+producer-2  | 2026-09-25T22:31:57.815789090Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:57.815375', 'temperatura': 64.02, 'vibracao': 4.44, 'energia': 137.34}
+producer-2  | 2026-09-25T22:31:57.815857221Z Mensagem enviada para partição 5 no offset 27
+producer-2  | 2026-09-25T22:31:59.816312548Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:31:59.815764', 'temperatura': 61.89, 'vibracao': 1.76, 'energia': 132.99}
+producer-2  | 2026-09-25T22:31:59.816409607Z Mensagem enviada para partição 1 no offset 20
+producer-2  | 2026-09-25T22:32:01.816806399Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:01.816258', 'temperatura': 93.56, 'vibracao': 8.67, 'energia': 375.74}
+producer-2  | 2026-09-25T22:32:01.816851724Z Mensagem enviada para partição 1 no offset 21
+producer-2  | 2026-09-25T22:32:03.817021901Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:03.816671', 'temperatura': 45.74, 'vibracao': 7.28, 'energia': 378.23}
+producer-2  | 2026-09-25T22:32:03.817048552Z Mensagem enviada para partição 4 no offset 38
+producer-2  | 2026-09-25T22:32:05.817148174Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:05.816949', 'temperatura': 59.93, 'vibracao': 9.73, 'energia': 109.97}
+producer-2  | 2026-09-25T22:32:05.817194903Z Mensagem enviada para partição 4 no offset 40
+producer-2  | 2026-09-25T22:32:07.817620296Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:07.817278', 'temperatura': 91.22, 'vibracao': 2.1, 'energia': 342.19}
+producer-2  | 2026-09-25T22:32:07.817658951Z Mensagem enviada para partição 4 no offset 42
+producer-2  | 2026-09-25T22:32:09.818278342Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:09.817860', 'temperatura': 31.51, 'vibracao': 5.2, 'energia': 359.64}
+producer-2  | 2026-09-25T22:32:09.818309356Z Mensagem enviada para partição 2 no offset 28
+producer-3  | 2026-09-25T22:33:20.633762259Z Mensagem enviada para partição 3 no offset 52
+producer-3  | 2026-09-25T22:33:22.634051873Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:22.633572', 'temperatura': 50.17, 'vibracao': 1.68, 'energia': 288.21}
+producer-3  | 2026-09-25T22:33:22.634099366Z Mensagem enviada para partição 5 no offset 55
+producer-3  | 2026-09-25T22:33:24.634705645Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:24.634119', 'temperatura': 68.87, 'vibracao': 0.32, 'energia': 201.92}
+producer-3  | 2026-09-25T22:33:24.634791346Z Mensagem enviada para partição 0 no offset 59
+producer-3  | 2026-09-25T22:33:26.635338020Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:26.634749', 'temperatura': 33.56, 'vibracao': 4.31, 'energia': 110.52}
+producer-3  | 2026-09-25T22:33:26.635388263Z Mensagem enviada para partição 0 no offset 60
+producer-3  | 2026-09-25T22:33:28.636435354Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:28.635562', 'temperatura': 55.25, 'vibracao': 2.48, 'energia': 196.16}
+producer-3  | 2026-09-25T22:33:28.636489773Z Mensagem enviada para partição 2 no offset 43
+producer-3  | 2026-09-25T22:33:30.636552905Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:30.636101', 'temperatura': 49.64, 'vibracao': 6.83, 'energia': 114.43}
+producer-3  | 2026-09-25T22:33:30.636598279Z Mensagem enviada para partição 2 no offset 44
+producer-3  | 2026-09-25T22:33:32.636764960Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:32.636501', 'temperatura': 66.36, 'vibracao': 7.82, 'energia': 473.66}
+producer-3  | 2026-09-25T22:33:32.636788134Z Mensagem enviada para partição 0 no offset 64
+producer-3  | 2026-09-25T22:33:34.637152757Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:34.636881', 'temperatura': 85.83, 'vibracao': 1.65, 'energia': 255.71}
+producer-3  | 2026-09-25T22:33:34.637183160Z Mensagem enviada para partição 1 no offset 43
+producer-3  | 2026-09-25T22:33:36.637789062Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:36.637218', 'temperatura': 26.15, 'vibracao': 9.66, 'energia': 315.76}
+producer-3  | 2026-09-25T22:33:36.637848072Z Mensagem enviada para partição 3 no offset 55
+producer-3  | 2026-09-25T22:33:38.638222310Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:38.637715', 'temperatura': 73.37, 'vibracao': 3.69, 'energia': 415.87}
+producer-3  | 2026-09-25T22:33:38.638276087Z Mensagem enviada para partição 4 no offset 62
+producer-3  | 2026-09-25T22:33:40.638706840Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:40.638196', 'temperatura': 91.56, 'vibracao': 5.01, 'energia': 342.12}
+producer-3  | 2026-09-25T22:33:40.638764948Z Mensagem enviada para partição 0 no offset 65
+producer-3  | 2026-09-25T22:33:42.639118119Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:42.638648', 'temperatura': 54.95, 'vibracao': 3.88, 'energia': 206.4}
+producer-3  | 2026-09-25T22:33:42.639218468Z Mensagem enviada para partição 3 no offset 59
+producer-3  | 2026-09-25T22:33:44.639611865Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:44.639067', 'temperatura': 29.46, 'vibracao': 5.94, 'energia': 314.11}
+producer-3  | 2026-09-25T22:33:44.639697496Z Mensagem enviada para partição 0 no offset 67
+producer-3  | 2026-09-25T22:33:46.635324288Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:46.634849', 'temperatura': 45.28, 'vibracao': 1.61, 'energia': 365.11}
+producer-3  | 2026-09-25T22:33:46.635356517Z Mensagem enviada para partição 3 no offset 61
+producer-3  | 2026-09-25T22:33:48.636061900Z Enviando: {'sensor': 'sensor-b163150026b1', 'timestamp': '2026-09-25T22:33:48.635190', 'temperatura': 66.63, 'vibracao': 0.01, 'energia': 426.02}
+producer-3  | 2026-09-25T22:33:48.636118342Z Mensagem enviada para partição 1 no offset 47
+producer-1  | 2026-09-25T22:33:39.979449228Z Mensagem enviada para partição 3 no offset 57
+producer-1  | 2026-09-25T22:33:41.979706987Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:41.979370', 'temperatura': 89.5, 'vibracao': 6.24, 'energia': 214.38}
+producer-1  | 2026-09-25T22:33:41.979752877Z Mensagem enviada para partição 1 no offset 46
+producer-1  | 2026-09-25T22:33:43.980119073Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:43.979781', 'temperatura': 56.96, 'vibracao': 9.34, 'energia': 486.27}
+producer-2  | 2026-09-25T22:32:11.819025311Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:11.818286', 'temperatura': 55.28, 'vibracao': 0.66, 'energia': 306.12}
+producer-1  | 2026-09-25T22:33:43.980165410Z Mensagem enviada para partição 5 no offset 60
+producer-1  | 2026-09-25T22:33:45.980593699Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:45.980041', 'temperatura': 41.35, 'vibracao': 6.81, 'energia': 201.49}
+producer-1  | 2026-09-25T22:33:45.980649887Z Mensagem enviada para partição 5 no offset 61
+producer-1  | 2026-09-25T22:33:47.977348324Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:47.975967', 'temperatura': 34.65, 'vibracao': 4.2, 'energia': 281.61}
+producer-1  | 2026-09-25T22:33:47.977426092Z Mensagem enviada para partição 3 no offset 63
+producer-1  | 2026-09-25T22:33:49.977452678Z Enviando: {'sensor': 'sensor-98c03ad4c36c', 'timestamp': '2026-09-25T22:33:49.976850', 'temperatura': 49.3, 'vibracao': 6.6, 'energia': 423.71}
+producer-1  | 2026-09-25T22:33:49.977553448Z Mensagem enviada para partição 5 no offset 63
+producer-2  | 2026-09-25T22:32:11.819091716Z Mensagem enviada para partição 2 no offset 29
+producer-2  | 2026-09-25T22:32:13.819563397Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:13.818856', 'temperatura': 80.02, 'vibracao': 2.69, 'energia': 369.44}
+producer-2  | 2026-09-25T22:32:13.819633053Z Mensagem enviada para partição 2 no offset 31
+producer-2  | 2026-09-25T22:32:15.819799157Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:15.819450', 'temperatura': 85.58, 'vibracao': 2.04, 'energia': 305.98}
+producer-2  | 2026-09-25T22:32:15.819949747Z Mensagem enviada para partição 2 no offset 32
+producer-2  | 2026-09-25T22:32:17.815654188Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:17.815185', 'temperatura': 38.59, 'vibracao': 3.76, 'energia': 256.85}
+producer-2  | 2026-09-25T22:32:17.815692481Z Mensagem enviada para partição 3 no offset 37
+producer-2  | 2026-09-25T22:32:19.816150614Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:19.815657', 'temperatura': 61.4, 'vibracao': 9.53, 'energia': 257.08}
+producer-2  | 2026-09-25T22:32:19.816199454Z Mensagem enviada para partição 2 no offset 34
+producer-2  | 2026-09-25T22:32:21.816489886Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:21.816121', 'temperatura': 49.49, 'vibracao': 9.6, 'energia': 312.57}
+producer-2  | 2026-09-25T22:32:21.816540035Z Mensagem enviada para partição 4 no offset 46
+producer-2  | 2026-09-25T22:32:23.817122109Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:23.816568', 'temperatura': 45.22, 'vibracao': 9.98, 'energia': 445.97}
+producer-2  | 2026-09-25T22:32:23.817190074Z Mensagem enviada para partição 4 no offset 48
+producer-2  | 2026-09-25T22:32:25.817615931Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:25.817179', 'temperatura': 36.36, 'vibracao': 3.66, 'energia': 178.69}
+producer-2  | 2026-09-25T22:32:25.817644214Z Mensagem enviada para partição 5 no offset 34
+producer-2  | 2026-09-25T22:32:27.817823080Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:27.817542', 'temperatura': 96.88, 'vibracao': 3.88, 'energia': 213.68}
+producer-2  | 2026-09-25T22:32:27.817856711Z Mensagem enviada para partição 1 no offset 25
+producer-2  | 2026-09-25T22:32:29.818473063Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:29.817851', 'temperatura': 42.02, 'vibracao': 9.88, 'energia': 127.25}
+producer-2  | 2026-09-25T22:32:29.818549921Z Mensagem enviada para partição 0 no offset 43
+producer-2  | 2026-09-25T22:32:31.818933796Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:31.818314', 'temperatura': 47.4, 'vibracao': 2.31, 'energia': 424.62}
+producer-2  | 2026-09-25T22:32:31.819007249Z Mensagem enviada para partição 0 no offset 44
+producer-2  | 2026-09-25T22:32:33.819420069Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:33.818990', 'temperatura': 30.17, 'vibracao': 0.89, 'energia': 220.02}
+producer-2  | 2026-09-25T22:32:33.819451936Z Mensagem enviada para partição 1 no offset 28
+producer-2  | 2026-09-25T22:32:35.819913069Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:35.819410', 'temperatura': 20.82, 'vibracao': 8.73, 'energia': 211.79}
+producer-2  | 2026-09-25T22:32:35.819984402Z Mensagem enviada para partição 2 no offset 35
+producer-2  | 2026-09-25T22:32:37.820571085Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:37.820128', 'temperatura': 80.25, 'vibracao': 2.94, 'energia': 272.93}
+producer-2  | 2026-09-25T22:32:37.820601748Z Mensagem enviada para partição 5 no offset 39
+producer-2  | 2026-09-25T22:32:39.820923321Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:39.820537', 'temperatura': 68.64, 'vibracao': 4.61, 'energia': 355.4}
+producer-2  | 2026-09-25T22:32:39.820988082Z Mensagem enviada para partição 2 no offset 36
+producer-2  | 2026-09-25T22:32:41.822883895Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:41.821069', 'temperatura': 70.71, 'vibracao': 5.01, 'energia': 291.77}
+producer-2  | 2026-09-25T22:32:41.824281284Z Mensagem enviada para partição 2 no offset 37
+producer-2  | 2026-09-25T22:32:43.824353102Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:43.823784', 'temperatura': 55.14, 'vibracao': 3.41, 'energia': 265.24}
+producer-2  | 2026-09-25T22:32:43.824584793Z Mensagem enviada para partição 4 no offset 51
+producer-2  | 2026-09-25T22:32:45.824772453Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:45.824449', 'temperatura': 71.74, 'vibracao': 8.63, 'energia': 193.13}
+producer-2  | 2026-09-25T22:32:45.824800177Z Mensagem enviada para partição 0 no offset 47
+producer-2  | 2026-09-25T22:32:47.820109830Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:47.819824', 'temperatura': 29.74, 'vibracao': 8.03, 'energia': 435.05}
+producer-2  | 2026-09-25T22:32:47.820140897Z Mensagem enviada para partição 4 no offset 53
+producer-2  | 2026-09-25T22:32:49.820465836Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:49.820125', 'temperatura': 61.27, 'vibracao': 5.43, 'energia': 164.5}
+producer-2  | 2026-09-25T22:32:49.820501883Z Mensagem enviada para partição 1 no offset 32
+producer-2  | 2026-09-25T22:32:51.821601803Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:51.820806', 'temperatura': 98.79, 'vibracao': 6.46, 'energia': 326.05}
+producer-2  | 2026-09-25T22:32:51.822153610Z Mensagem enviada para partição 3 no offset 44
+producer-2  | 2026-09-25T22:32:53.822442155Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:53.821982', 'temperatura': 23.93, 'vibracao': 1.52, 'energia': 207.84}
+producer-2  | 2026-09-25T22:32:53.822491022Z Mensagem enviada para partição 5 no offset 44
+producer-2  | 2026-09-25T22:32:55.822758473Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:55.822422', 'temperatura': 21.58, 'vibracao': 7.44, 'energia': 345.85}
+producer-2  | 2026-09-25T22:32:55.822801790Z Mensagem enviada para partição 4 no offset 54
+producer-2  | 2026-09-25T22:32:57.823008221Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:57.822705', 'temperatura': 20.7, 'vibracao': 4.55, 'energia': 488.66}
+producer-2  | 2026-09-25T22:32:57.823038233Z Mensagem enviada para partição 1 no offset 35
+producer-2  | 2026-09-25T22:32:59.823679962Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:32:59.823145', 'temperatura': 34.71, 'vibracao': 5.76, 'energia': 459.88}
+producer-2  | 2026-09-25T22:32:59.823937448Z Mensagem enviada para partição 3 no offset 46
+producer-2  | 2026-09-25T22:33:01.824212833Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:01.823879', 'temperatura': 72.06, 'vibracao': 0.63, 'energia': 385.79}
+producer-2  | 2026-09-25T22:33:01.824243908Z Mensagem enviada para partição 5 no offset 46
+producer-2  | 2026-09-25T22:33:03.825013647Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:03.824284', 'temperatura': 83.37, 'vibracao': 1.25, 'energia': 240.46}
+producer-2  | 2026-09-25T22:33:03.825093673Z Mensagem enviada para partição 0 no offset 55
+producer-2  | 2026-09-25T22:33:05.825791758Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:05.825111', 'temperatura': 53.48, 'vibracao': 9.31, 'energia': 102.89}
+producer-2  | 2026-09-25T22:33:05.825836253Z Mensagem enviada para partição 0 no offset 56
+producer-2  | 2026-09-25T22:33:07.826093957Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:07.825664', 'temperatura': 97.24, 'vibracao': 2.5, 'energia': 328.32}
+producer-2  | 2026-09-25T22:33:07.826141640Z Mensagem enviada para partição 1 no offset 37
+producer-2  | 2026-09-25T22:33:09.826609358Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:09.826119', 'temperatura': 22.62, 'vibracao': 3.68, 'energia': 323.09}
+producer-2  | 2026-09-25T22:33:09.826645839Z Mensagem enviada para partição 1 no offset 38
+producer-2  | 2026-09-25T22:33:11.826904057Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:11.826539', 'temperatura': 26.18, 'vibracao': 6.09, 'energia': 215.92}
+producer-2  | 2026-09-25T22:33:11.826951567Z Mensagem enviada para partição 4 no offset 58
+producer-2  | 2026-09-25T22:33:13.827399037Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:13.826957', 'temperatura': 55.66, 'vibracao': 1.62, 'energia': 298.69}
+producer-2  | 2026-09-25T22:33:13.827441855Z Mensagem enviada para partição 4 no offset 60
+producer-2  | 2026-09-25T22:33:15.827940472Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:15.827512', 'temperatura': 70.42, 'vibracao': 6.64, 'energia': 425.49}
+producer-2  | 2026-09-25T22:33:15.827982215Z Mensagem enviada para partição 3 no offset 51
+producer-2  | 2026-09-25T22:33:17.823554765Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:17.823062', 'temperatura': 38.02, 'vibracao': 4.06, 'energia': 308.92}
+producer-2  | 2026-09-25T22:33:17.823597202Z Mensagem enviada para partição 1 no offset 39
+producer-2  | 2026-09-25T22:33:19.824053711Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:19.823568', 'temperatura': 76.52, 'vibracao': 6.31, 'energia': 381.83}
+producer-2  | 2026-09-25T22:33:19.824090158Z Mensagem enviada para partição 4 no offset 61
+producer-2  | 2026-09-25T22:33:21.824263179Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:21.823963', 'temperatura': 60.46, 'vibracao': 1.08, 'energia': 330.37}
+producer-2  | 2026-09-25T22:33:21.824304145Z Mensagem enviada para partição 0 no offset 57
+producer-2  | 2026-09-25T22:33:23.824788592Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:23.824366', 'temperatura': 40.68, 'vibracao': 3.51, 'energia': 395.88}
+producer-2  | 2026-09-25T22:33:23.824868714Z Mensagem enviada para partição 0 no offset 58
+producer-2  | 2026-09-25T22:33:25.826848087Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:25.825093', 'temperatura': 25.74, 'vibracao': 0.07, 'energia': 297.75}
+producer-2  | 2026-09-25T22:33:25.826917624Z Mensagem enviada para partição 1 no offset 42
+producer-2  | 2026-09-25T22:33:27.827321645Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:27.826472', 'temperatura': 43.52, 'vibracao': 1.13, 'energia': 320.18}
+producer-2  | 2026-09-25T22:33:27.827387068Z Mensagem enviada para partição 0 no offset 61
+producer-2  | 2026-09-25T22:33:29.827762531Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:29.827303', 'temperatura': 83.15, 'vibracao': 3.87, 'energia': 171.76}
+producer-2  | 2026-09-25T22:33:29.827803075Z Mensagem enviada para partição 0 no offset 62
+producer-2  | 2026-09-25T22:33:31.828378880Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:31.827808', 'temperatura': 72.01, 'vibracao': 8.35, 'energia': 386.43}
+producer-2  | 2026-09-25T22:33:31.828428449Z Mensagem enviada para partição 3 no offset 54
+producer-2  | 2026-09-25T22:33:33.828716239Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:33.828298', 'temperatura': 93.71, 'vibracao': 1.53, 'energia': 375.5}
+producer-2  | 2026-09-25T22:33:33.828763829Z Mensagem enviada para partição 2 no offset 45
+producer-2  | 2026-09-25T22:33:35.829612039Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:35.828737', 'temperatura': 40.06, 'vibracao': 6.36, 'energia': 409.92}
+producer-2  | 2026-09-25T22:33:35.829663408Z Mensagem enviada para partição 5 no offset 58
+producer-2  | 2026-09-25T22:33:37.829766430Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:37.829305', 'temperatura': 70.28, 'vibracao': 7.3, 'energia': 206.69}
+producer-2  | 2026-09-25T22:33:37.829820632Z Mensagem enviada para partição 5 no offset 59
+producer-2  | 2026-09-25T22:33:39.830440409Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:39.829821', 'temperatura': 35.53, 'vibracao': 2.33, 'energia': 436.87}
+producer-2  | 2026-09-25T22:33:39.830476463Z Mensagem enviada para partição 1 no offset 45
+producer-2  | 2026-09-25T22:33:41.830583583Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:41.830300', 'temperatura': 50.35, 'vibracao': 6.1, 'energia': 111.84}
+producer-2  | 2026-09-25T22:33:41.830630886Z Mensagem enviada para partição 3 no offset 58
+producer-2  | 2026-09-25T22:33:43.831124389Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:43.830651', 'temperatura': 82.58, 'vibracao': 7.72, 'energia': 288.3}
+producer-2  | 2026-09-25T22:33:43.831156123Z Mensagem enviada para partição 0 no offset 66
+producer-2  | 2026-09-25T22:33:45.832135856Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:45.831149', 'temperatura': 97.84, 'vibracao': 0.16, 'energia': 307.63}
+producer-2  | 2026-09-25T22:33:45.832294257Z Mensagem enviada para partição 3 no offset 60
+producer-2  | 2026-09-25T22:33:47.827824410Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:47.827094', 'temperatura': 73.22, 'vibracao': 2.97, 'energia': 387.77}
+producer-2  | 2026-09-25T22:33:47.827932718Z Mensagem enviada para partição 3 no offset 62
+producer-2  | 2026-09-25T22:33:49.827814771Z Enviando: {'sensor': 'sensor-b608cc4773ef', 'timestamp': '2026-09-25T22:33:49.827572', 'temperatura': 90.64, 'vibracao': 0.78, 'energia': 232.72}
+producer-2  | 2026-09-25T22:33:49.827854988Z Mensagem enviada para partição 5 no offset 62
