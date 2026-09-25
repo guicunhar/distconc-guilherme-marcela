@@ -110,3 +110,18 @@ services:
       SENSOR_ID_PREFIX: sensor
       SENSOR_INTERVAL_SECONDS: "2"
       KAFKA_ACKS: all
+
+
+  consumer:
+    build: ./consumer
+    depends_on:
+      - kafka1
+      - kafka2
+      - kafka3
+    deploy:
+      replicas: ${CONSUMER_REPLICAS:-3}
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka1:9092,kafka2:9092,kafka3:9092
+      KAFKA_TOPIC: dados-sensores
+      KAFKA_CONSUMER_GROUP: processadores-sensores
+      TEMPERATURE_LIMIT: "80"
