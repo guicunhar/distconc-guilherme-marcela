@@ -6,13 +6,17 @@ N ?= 4
 SERVICO ?= consumer
 TOPICO ?= dados-sensores
 
-.PHONY: up down limpar status logs logs-produtores logs-consumidores \
+.PHONY: up rodar down limpar status logs logs-produtores logs-consumidores \
         logs-rebalanco salvar-logs alertas falha-broker falha-consumidor \
         queda-consumidor escalar
 
 ## Sobe todo o sistema (brokers, sensores e consumidores)
 up:
 	docker compose up -d --build
+
+## Sobe o sistema e acompanha sensores e consumidores juntos, ao vivo
+rodar: up
+	docker compose logs -f producer consumer
 
 ## Para e remove os containers (os dados do Kafka são perdidos)
 down:
