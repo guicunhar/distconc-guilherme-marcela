@@ -96,46 +96,17 @@ services:
       KAFKA_HEAP_OPTS: "-Xmx512m -Xms512m"
 
 
-  producer1:
+  producer:
     build: ./producer
-    container_name: producer1
     depends_on:
       - kafka1
       - kafka2
       - kafka3
+    deploy:
+      replicas: ${PRODUCER_REPLICAS:-3}
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka1:9092,kafka2:9092,kafka3:9092
       KAFKA_TOPIC: dados-sensores
-      SENSOR_ID: sensor-1
-      SENSOR_INTERVAL_SECONDS: "2"
-      KAFKA_ACKS: all
-
-
-  producer2:
-    build: ./producer
-    container_name: producer2
-    depends_on:
-      - kafka1
-      - kafka2
-      - kafka3
-    environment:
-      KAFKA_BOOTSTRAP_SERVERS: kafka1:9092,kafka2:9092,kafka3:9092
-      KAFKA_TOPIC: dados-sensores
-      SENSOR_ID: sensor-2
-      SENSOR_INTERVAL_SECONDS: "2"
-      KAFKA_ACKS: all
-
-
-  producer3:
-    build: ./producer
-    container_name: producer3
-    depends_on:
-      - kafka1
-      - kafka2
-      - kafka3
-    environment:
-      KAFKA_BOOTSTRAP_SERVERS: kafka1:9092,kafka2:9092,kafka3:9092
-      KAFKA_TOPIC: dados-sensores
-      SENSOR_ID: sensor-3
+      SENSOR_ID_PREFIX: sensor
       SENSOR_INTERVAL_SECONDS: "2"
       KAFKA_ACKS: all

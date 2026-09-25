@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import socket
 import time
 from datetime import datetime
 
@@ -15,10 +16,23 @@ def carregar_configuracoes():
     return {
         "bootstrap_servers": os.environ["KAFKA_BOOTSTRAP_SERVERS"],
         "topic": os.environ["KAFKA_TOPIC"],
-        "sensor_id": os.environ["SENSOR_ID"],
+        "sensor_id": gerar_sensor_id(),
         "acks": os.environ.get("KAFKA_ACKS", "all"),
         "interval": float(os.environ["SENSOR_INTERVAL_SECONDS"]),
     }
+
+
+def gerar_sensor_id():
+    """
+    Define o identificador do sensor.
+
+    Usa SENSOR_ID se estiver definido. Caso contrário, combina
+    SENSOR_ID_PREFIX com o hostname do container, que é único
+    para cada réplica criada com `docker compose up --scale`.
+    """
+    if "SENSOR_ID" in os.environ:
+        return os.environ["SENSOR_ID"]
+    return f"{os.environ['SENSOR_ID_PREFIX']}-{socket.gethostname()}"
 
 
 def gerar_dados(sensor_id):
@@ -70,7 +84,6 @@ def main():
 
         producer.produce(
             topic=config["topic"],
-            key=config["sensor_id"].encode("utf-8"),
             value=json.dumps(dados).encode("utf-8"),
             callback=confirmar_entrega,
         )
