@@ -16,7 +16,7 @@ def carregar_configuracoes():
         "bootstrap_servers": os.environ["KAFKA_BOOTSTRAP_SERVERS"],
         "topic": os.environ["KAFKA_TOPIC"],
         "sensor_id": os.environ["SENSOR_ID"],
-        "partition": int(os.environ["KAFKA_PARTITION"]),
+        "acks": os.environ.get("KAFKA_ACKS", "all"),
         "interval": float(os.environ["SENSOR_INTERVAL_SECONDS"]),
     }
 
@@ -56,7 +56,8 @@ def main():
 
     producer = Producer(
         {
-            "bootstrap.servers": config["bootstrap_servers"]
+            "bootstrap.servers": config["bootstrap_servers"],
+            "acks": config["acks"],
         }
     )
 
@@ -69,7 +70,7 @@ def main():
 
         producer.produce(
             topic=config["topic"],
-            partition=config["partition"],
+            key=config["sensor_id"].encode("utf-8"),
             value=json.dumps(dados).encode("utf-8"),
             callback=confirmar_entrega,
         )
