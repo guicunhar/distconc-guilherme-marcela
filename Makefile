@@ -14,9 +14,11 @@ TOPICO ?= dados-sensores
 up:
 	docker compose up -d --build
 
-## Sobe o sistema e acompanha sensores e consumidores juntos, ao vivo
+## Sobe o sistema e acompanha sensores e consumidores juntos, ao vivo,
+## gravando ao mesmo tempo em logs/execucao.log
 rodar: up
-	docker compose logs -f producer consumer
+	mkdir -p logs
+	docker compose logs -f -t producer consumer | tee logs/execucao.log
 
 ## Para e remove os containers (os dados do Kafka são perdidos)
 down:
