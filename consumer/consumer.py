@@ -2,6 +2,7 @@ import json
 import os
 import signal
 import socket
+from datetime import datetime
 
 from confluent_kafka import Consumer
 
@@ -15,7 +16,8 @@ def carregar_configuracoes():
         "topic": os.environ["KAFKA_TOPIC"],
         "group_id": os.environ["KAFKA_CONSUMER_GROUP"],
         "consumer_id": gerar_consumer_id(),
-        "temperature_limit": float(os.environ["TEMPERATURE_LIMIT"])
+        "temperature_limit": float(os.environ["TEMPERATURE_LIMIT"]),
+        "alertas_arquivo": os.environ["ALERTAS_ARQUIVO"],
     }
 
 
@@ -62,7 +64,28 @@ def particoes_revogadas(consumer_id, particoes):
     print(f"[REBALANÇO] {consumer_id} perdeu as partições {numeros}")
 
 
-def processar_dados(dados, limite, consumer_id):
+def salvar_alerta(arquivo, dados, limite, consumer_id):
+    """
+    Registra o alerta no arquivo de alertas, um JSON por linha,
+    para análise posterior.
+
+    O arquivo fica num volume compartilhado, então todos os
+    consumidores escrevem no mesmo lugar.
+    """
+    alerta = {
+        "detectado_em": datetime.now().isoformat(),
+        "consumidor": consumer_id,
+        "sensor": dados["sensor"],
+        "leitura_em": dados["timestamp"],
+        "temperatura": dados["temperatura"],
+        "limite": limite,
+    }
+
+    with open(arquivo, "a", encoding="utf-8") as f:
+        f.write(json.dumps(alerta) + "\n")
+
+
+def processar_dados(dados, limite, consumer_id, arquivo_alertas):
     """
     Processa os dados recebidos e verifica a temperatura.
     """
@@ -79,6 +102,7 @@ def processar_dados(dados, limite, consumer_id):
             f"ALERTA: temperatura do {sensor} acima do limite "
             f"({temperatura} > {limite})"
         )
+        salvar_alerta(arquivo_alertas, dados, limite, consumer_id)
 
 
 def main():
@@ -88,6 +112,8 @@ def main():
     config = carregar_configuracoes()
 
     signal.signal(signal.SIGTERM, encerrar)
+
+    os.makedirs(os.path.dirname(config["alertas_arquivo"]), exist_ok=True)
 
     consumer = Consumer({
         "bootstrap.servers": config["bootstrap_servers"],
@@ -133,7 +159,8 @@ def main():
             processar_dados(
                 dados,
                 config["temperature_limit"],
-                config["consumer_id"]
+                config["consumer_id"],
+                config["alertas_arquivo"]
             )
 
     except KeyboardInterrupt:

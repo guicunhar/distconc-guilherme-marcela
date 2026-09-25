@@ -125,3 +125,6 @@ services:
       KAFKA_TOPIC: dados-sensores
       KAFKA_CONSUMER_GROUP: processadores-sensores
       TEMPERATURE_LIMIT: "80"
+      ALERTAS_ARQUIVO: /app/dados/alertas.jsonl
+    volumes:
+      - ./dados:/app/dados
